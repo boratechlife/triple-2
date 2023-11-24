@@ -7,15 +7,15 @@
     },
     {
       "link": "/features/",
-      "text": "Features"
+      "text": "Functionaliteiten"
     },
     {
       "link": "/pricing/",
-      "text": "Pricing"
+      "text": "Prijs"
     },
     {
       "link": "/about/",
-      "text": "About"
+      "text": "Over"
     },
     {
       "link": "/blog/",
@@ -28,6 +28,6 @@
   ],
   "btn": {
     "link": "/signup/",
-    "text": "Get Started"
+    "text": "Aanmelden"
   }
 }
