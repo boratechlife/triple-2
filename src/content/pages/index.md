@@ -11,12 +11,12 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Ontdek de kracht van notuleren met AI
+    title: Ontdek de magie van notuleren met AI
     description: Met onze tool ben je 95% sneller met notuleren, dezelfde kwaliteit.&nbsp;
     image: /images/hero/hero-image-2.png
     image_alt: Reports dashboard
     button:
-      text: Try This Free
+      text: Probeer gratis
       link: /signup/
   - _bookshop_name: global/counter
     title: '95% sneller '
