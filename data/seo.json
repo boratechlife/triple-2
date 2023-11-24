@@ -1,13 +1,13 @@
 {
-	"site_name": "Sendit",
-	"site_title": "Sendit Template Astro",
-	"description": "A polished, marketing website template built with Astro.",
-	"author": "",
-	"author_email": "",
+	"site_name": "AI Notulist.nl",
+	"site_title": "AI Notulist.nl",
+	"description": "Ontdek de magie van notuleren met AI. Met onze tool ben je 95% sneller met notuleren, dezelfde kwaliteit. ",
+	"author": "Tripleblue",
+	"author_email": "bram@triple.blue",
 	"images": [
 		{
-			"image": "/images/_screenshot.png",
-			"description": "Screenshot for Sendit Template",
+			"image": "/uploads/screenshot-ai-notulist.png",
+			"description": "Screenshot for AINotulist",
 			"height": 0,
 			"width": 0
 		}
