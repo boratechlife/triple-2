@@ -55,7 +55,7 @@ content_blocks:
       intelligente thema-herkenning, en op maat gemaakte functies. An
     remove_top_padding: true
   - _bookshop_name: global/feature
-    image: /images/feature/feature-card-one.png
+    image: /uploads/feature-card-one.png
     image_alt: Message inbox
     title: Veilig & vertrouwelijk
     description: >-
@@ -68,7 +68,7 @@ content_blocks:
       text: Probeer gratis
     reversed: false
   - _bookshop_name: global/feature
-    image: /images/feature/feature-card-two.png
+    image: /uploads/feature-card-two.png
     image_alt: Visitor chart
     title: Bliksemsnel notuleren
     description: >-
@@ -80,7 +80,7 @@ content_blocks:
       text: Meld je aan voor onze webinar
     reversed: true
   - _bookshop_name: global/feature
-    image: /images/feature/feature-card-three.png
+    image: /uploads/feature-card-three.png
     image_alt: File upload
     title: Intelligente inzichten
     description: >-
