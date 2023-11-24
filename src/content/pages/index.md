@@ -19,73 +19,77 @@ content_blocks:
       text: Try This Free
       link: /signup/
   - _bookshop_name: global/counter
-    title: Scale your
-    title_suffix: Business
+    title: '95% sneller '
+    title_suffix: notuleren
     description: >-
-      We have an extensive library of pre-written sales emails, proven marketing
-      templates, and more to get you started on your next project.
+      Wij bieden de toekomst van notuleren met onze AI-gedreven tool die
+      tijdrovend werk verandert in een taak van enkele minuten.
     alternate_style: false
     numbers:
-      - prefix: $
-        number: 200
-        suffix: m
-        text: Venture capital raised
       - prefix:
-        number: 2016
+        number: 250
+        suffix: +
+        text: Tevreden notulisten
+      - prefix:
+        number: 2023
         suffix:
-        text: Established in
+        text: Gelanceerd in
       - prefix:
         number: 40
         suffix: +
-        text: Amazing team members
+        text: Bestaande organisaties
       - prefix:
-        number: 4322
+        number: 4000
         suffix: +
-        text: Active users and growing
+        text: Voltooide opdrachten
   - _bookshop_name: home/video
     image: /images/video/video-thum.jpg
     image_alt: Thumbnail for video
     video_url: https://vimeo.com/45830194
   - _bookshop_name: global/header
-    title: 'Sendit '
-    title_suffix: Features
+    title: 'De magie van '
+    title_suffix: AI Notulist
     description: >-
-      Our platform offers the most advanced features including automated email
-      content creation, dynamic personalization, and customer segmentation.
+      Ons platform is uw geheime wapen voor efficiënt notuleren, uitgerust met
+      geavanceerde functies zoals automatische transcriptie van vergaderingen,
+      intelligente thema-herkenning, en op maat gemaakte functies. An
     remove_top_padding: true
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-one.png
     image_alt: Message inbox
-    title: Email Campaign in one minute
+    title: Veilig & vertrouwelijk
     description: >-
-      Send an email campaign with one click, in just minutes. Automate your
-      emails and content, while keeping the human touch.
+      Onze AI-notulistentool is ontworpen met uw vertrouwen als kernwaarde. Wij
+      hanteren strikte beveiligingsprotocollen en zijn volledig toegewijd aan de
+      Algemene Verordening Gegevensbescherming (GDPR) om uw gegevens te
+      beschermen.
     button:
       link: /signup
-      text: Try This Free
+      text: Probeer gratis
     reversed: false
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-two.png
     image_alt: Visitor chart
-    title: See every Lead in one Place
+    title: Bliksemsnel notuleren
     description: >-
-      Sales analytics and automation made simple: see every sales lead in one
-      place, regardless of where it came from.
+      Onze AI-gestuurde tool vermindert de tijd die nodig is voor het notuleren
+      van vergaderingen drastisch, van uren naar minuten, zonder in te boeten op
+      detail of kwaliteit.
     button:
       link: /signup
-      text: Try This Free
+      text: Meld je aan voor onze webinar
     reversed: true
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-three.png
     image_alt: File upload
-    title: 100% free uploads
+    title: Intelligente inzichten
     description: >-
-      Sendit is used by everyone from small businesses to fortune 500 companies.
-      Browse our collection of email marketing templates and start sending
-      beautiful emails in minutes.
+      Met geavanceerde algoritmes analyseert onze service de inhoud van uw
+      vergaderingen, waardoor u niet alleen accurate notulen krijgt maar ook
+      waardevolle inzichten en actiepunten.
     button:
       link: /signup
-      text: Try This Free
+      text: Probeer gratis
     reversed: false
   - _bookshop_name: global/testimonial
     title: Build relationships that
