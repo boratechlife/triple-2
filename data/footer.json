@@ -1,27 +1,27 @@
 {
   "logo": "/images/footer-logo.svg",
   "logo_url": "/",
-  "copyright": "MyCompany. All rights reserved.",
+  "copyright": "AINotulist.nl / Tripleblue GmbH. Alle rechten voorbehouden.",
   "social": [
     {
-      "link": "https://www.facebook.com/mycompany",
-      "social_icon": "ph-facebook-logo"
+      "link": null,
+      "social_icon": null
     },
     {
-      "link": "https://www.instagram.com/mycompany",
-      "social_icon": "ph-instagram-logo"
+      "link": null,
+      "social_icon": null
     },
     {
-      "link": "https://www.twitter.com/mycompany",
-      "social_icon": "ph-twitter-logo"
+      "link": null,
+      "social_icon": null
     },
     {
-      "link": "https://www.github.com/mycompany",
-      "social_icon": "ph-github-logo"
+      "link": null,
+      "social_icon": null
     },
     {
-      "link": "https://www.youtube.com/mycompany",
-      "social_icon": "ph-youtube-logo"
+      "link": null,
+      "social_icon": null
     }
   ],
   "sections": [
@@ -33,16 +33,16 @@
           "text": "Home"
         },
         {
-          "link": "/features/",
-          "text": "Features"
+          "link": "/functionaliteiten/",
+          "text": "Functionaliteiten"
         },
         {
-          "link": "/pricing/",
-          "text": "Price"
+          "link": "/prijs/",
+          "text": "Prijs"
         },
         {
-          "link": "/about/",
-          "text": "About"
+          "link": "/over/",
+          "text": "Over ons"
         }
       ]
     },
