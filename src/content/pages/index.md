@@ -92,14 +92,12 @@ content_blocks:
       text: Probeer gratis
     reversed: false
   - _bookshop_name: global/testimonial
-    title: Build relationships that
-    title_suffix: last
-    description: >-
-      Customers from around the world are building game changing email marketing
-      campaigns.
+    title: Luister niet naar ons.
+    title_suffix: Maar naar hen die het dagelijks gebruiken.
+    description: Het resultaat is hetzelfde. De manier waarop is revolutionair.
     slider:
       - image: /images/testimonial/logo-2.jpg
-        image_alt: Profile photo of Pete Fish
+        image_alt:
         author: Pete Fish
         designation: CMO at Clear Appeal
         message: >-
