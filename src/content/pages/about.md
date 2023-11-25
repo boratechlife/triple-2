@@ -66,38 +66,22 @@ content_blocks:
       link: >-
         mailto:bram@triple.blue?subject=AI%20Notulist&body=Beste%20Bram%2C%0A%0AIk%20zou%20graag%20meer%20informatie%20willen%20ontvangen%20over%20AINotulist.%20Zouden%20wij%20een%20afspraak%20kunnen%20maken%20voor%20een%20demo%3F%0A%0AAlvast%20bedankt!%0A%0AMet%20vriendelijke%20groet%2C
   - _bookshop_name: about/team
-    title: Our leadership team
+    title: Ons team
     team_members:
-      - name: Nikolas Mcconnell
-        designation: Co-Founder & CEO
-        image: /images/team/1.jpg
+      - name: Dennis Beemsterboer
+        designation: Co-Founder
+        image: /uploads/feature-card-three-1-1.png
         image_alt: 'Team member: Nikolas Mcconnell'
-      - name: Keiren Mcculloch
-        designation: CMO
-        image: /images/team/2.jpg
-        image_alt: 'Team member: Keiren Mcculloch'
-      - name: Piers Reyes
-        designation: Head of Marketing
-        image: /images/team/3.jpg
-        image_alt: 'Team member: Piers Reyes'
-      - name: Zachary Arias
-        designation: Co-founder & CTO
-        image: /images/team/4.jpg
-        image_alt: 'Team member: Zachary Arias'
-      - name: Harmony Dunlop
-        designation: Head of Sales
-        image: /images/team/5.jpg
-        image_alt: 'Team member: Harmony Dunlop'
-      - name: Elize Schwartz
-        designation: CRO
-        image: /images/team/6.jpg
-        image_alt: 'Team member: Elize Schwartz'
-      - name: Coen Simmons
-        designation: Head of Design
-        image: /images/team/7.jpg
-        image_alt: 'Team member: Coen Simmons'
-      - name: Fran Figureson
-        designation: Head of People
-        image: /images/team/8.jpg
-        image_alt: 'Team member: Fran Figureson'
+      - name: Bram van de Meerendonk
+        designation: Co-founder
+        image: /uploads/feature-card-three-2.png
+        image_alt: 'Team member: Bram'
+      - name: Freek Boelders
+        designation: Co-founder
+        image: /uploads/feature-card-three-3.png
+        image_alt: 'Team member: Freek Boelders'
+      - name: Evi Marler
+        designation: Business Developer
+        image: /uploads/feature-card-three-4.png
+        image_alt: 'Team member: Evi Marler'
 ---
