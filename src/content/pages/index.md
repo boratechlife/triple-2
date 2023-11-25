@@ -31,17 +31,17 @@ content_blocks:
         suffix: +
         text: Tevreden notulisten
       - prefix:
-        number: 2023
-        suffix:
-        text: Gelanceerd in
-      - prefix:
-        number: 40
-        suffix: +
-        text: Bestaande organisaties
-      - prefix:
         number: 4000
         suffix: +
         text: Voltooide opdrachten
+      - prefix:
+        number: 40
+        suffix: +
+        text: Organisaties als klant
+      - prefix:
+        number: 2023
+        suffix:
+        text: Opgericht in
   - _bookshop_name: home/video
     image: /images/video/video-thum.jpg
     image_alt: Thumbnail for video
