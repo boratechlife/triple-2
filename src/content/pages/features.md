@@ -66,26 +66,28 @@ content_blocks:
       text: Probeer gratis
     reversed: false
   - _bookshop_name: global/testimonial
-    title: Build relationships that
-    title_suffix: last
-    description: >-
-      Customers from around the world are building game changing email marketing
-      campaigns.
+    title: Luister niet naar ons.
+    title_suffix: Maar naar hen die het dagelijks gebruiken.
+    description: Het resultaat is hetzelfde. De manier waarop is revolutionair.
     slider:
-      - image: /images/testimonial/logo-2.jpg
-        image_alt: Profile photo of Pete Fish
-        author: Pete Fish
-        designation: CMO at Clear Appeal
+      - image: /uploads/user-testimonial-1.jpeg
+        image_alt: Profile photo of Nina Bauer
+        author: Nina Bauer
+        designation: Eigenaar, Nina Officemanagement
         message: >-
-          Sendit has taken Clear Appeal to the next level with it's beautiful
-          targetted email campaigns.
-      - image: /images/testimonial/logo-3.jpg
-        image_alt: Profile photo of Dolly Watson
-        author: Dolly Watson
-        designation: Digital Marketer at Time Cop
+          "AI Notulist is echt een gamechanger voor mij! Het is super snel en
+          makkelijk in gebruik, waardoor ik veel meer kostbare tijd overhoud
+          voor belangrijke dingen."
+      - image: /uploads/user-testimonial-2.jpg
+        image_alt: Profile photo of Henri Vogel
+        author: Henri Vogel
+        designation: Eigenaar, VIA De Leeuw
         message: >-
-          Wow, what a difference Sendit has made. My customers are more engaged
-          than ever.
+          "VIA de Leeuw maakt voor haar onderzoeksopdrachten gebruik van de
+          diensten van Tripleblue AI Notulist. Bij de uitvoering van zgn legal
+          audits (juridische doorlichting van organisaties) nemen wij de
+          auditgesprekken op en verwerken dat met de tool van Tripleblue AI
+          Notulist. De kwaliteit is prima en het scheelt ons veel tijd."
       - image: /images/testimonial/logo-4.jpg
         image_alt: Profile photo of Simon Moriarty
         author: Simon Moriarty
