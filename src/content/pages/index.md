@@ -56,7 +56,7 @@ content_blocks:
     remove_top_padding: true
   - _bookshop_name: global/feature
     image: /uploads/feature-card-one.png
-    image_alt: Message inbox
+    image_alt: data-protection
     title: Veilig & vertrouwelijk
     description: >-
       Onze AI-notulistentool is ontworpen met uw vertrouwen als kernwaarde. Wij
@@ -69,7 +69,7 @@ content_blocks:
     reversed: false
   - _bookshop_name: global/feature
     image: /uploads/feature-card-two.png
-    image_alt: Visitor chart
+    image_alt: bliksem-notuleren
     title: Bliksemsnel notuleren
     description: >-
       Onze AI-gestuurde tool vermindert de tijd die nodig is voor het notuleren
@@ -101,19 +101,19 @@ content_blocks:
         author: Nina Bauer
         designation: Eigenaar, Nina Officemanagement
         message: >-
-          AI Notulist is echt een gamechanger voor mij! Het is super snel en
+          "AI Notulist is echt een gamechanger voor mij! Het is super snel en
           makkelijk in gebruik, waardoor ik veel meer kostbare tijd overhoud
-          voor belangrijke dingen.
+          voor belangrijke dingen."
       - image: /uploads/user-testimonial-2.jpg
         image_alt:
         author: Henri Vogel
         designation: Oprichter, VIA De Leeuw
         message: >-
-          VIA de Leeuw maakt voor haar onderzoeksopdrachten gebruik van de
+          "VIA de Leeuw maakt voor haar onderzoeksopdrachten gebruik van de
           diensten van Tripleblue AI Notulist. Bij de uitvoering van zgn legal
           audits (juridische doorlichting van organisaties) nemen wij de
           auditgesprekken op en verwerken dat met de tool van Tripleblue AI
-          Notulist. De kwaliteit is prima en het scheelt ons veel tijd.
+          Notulist. De kwaliteit is prima en het scheelt ons veel tijd."
       - image: /images/testimonial/logo-4.jpg
         image_alt: Profile photo of Simon Moriarty
         author: Simon Moriarty
