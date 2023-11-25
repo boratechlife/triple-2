@@ -51,17 +51,20 @@ content_blocks:
         suffix:
         text: Opgericht in
   - _bookshop_name: about/video
-    title: We love what we do
+    title: Onze klanten noemen ons tool "magisch"
     description: >-
-      Our team has decades of experience working with email marketing campaigns
-      and we’re passionate about helping you connect with your customers.
+      Wij vinden het als team een enorm geluk om een product te bouwen dat een
+      tijdrovende uitdaging oplost voor veel organisaties. Het is de kracht van
+      de mens en AI die in ons product naar voren komt én de beste notulen als
+      resultaat heeft!
     button:
-      link: https://www.linkedin.com/
-      text: Follow on Linkedin
+      link: https://www.linkedin.com/company/tripleblue/
+      text: Volg ons op LinkedIn
     video:
-      image: /images/works/banner.jpg
+      image: /uploads/feature-card-three-1.png
       image_alt: Thumbnail image for video
-      link: https://vimeo.com/45830194
+      link: >-
+        mailto:bram@triple.blue?subject=AI%20Notulist&body=Beste%20Bram%2C%0A%0AIk%20zou%20graag%20meer%20informatie%20willen%20ontvangen%20over%20AINotulist.%20Zouden%20wij%20een%20afspraak%20kunnen%20maken%20voor%20een%20demo%3F%0A%0AAlvast%20bedankt!%0A%0AMet%20vriendelijke%20groet%2C
   - _bookshop_name: about/team
     title: Our leadership team
     team_members:
