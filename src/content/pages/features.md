@@ -14,26 +14,29 @@ content_blocks:
     title: Stop met typen.
     description: >-
       We helpen jou 95% sneller notuleren met dezelfde kwaliteit. Kunstmatige
-      intelligentie helpt jou een handje.
+      intelligentie helpt jou een handje op een veilige & vertrouwelijke manier.
     button:
       link: /signup
       text: Probeer gratis
-    image: /images/feature/feature-hero.png
+    image: /uploads/hero-image-2-2.png
     image_alt: Charts
   - _bookshop_name: global/header
-    title: 'Sendit '
-    title_suffix: Features
+    title: 'De magie van '
+    title_suffix: AI Notulist
     description: >-
-      Sendit is the most complete solution to create beautiful email designs,
-      manage mails and send them out at the best price.
+      Ons platform is uw geheime wapen voor efficiënt notuleren, uitgerust met
+      geavanceerde functies zoals automatische transcriptie van vergaderingen,
+      intelligente thema-herkenning, en op maat gemaakte functies. An
     remove_top_padding: false
   - _bookshop_name: global/feature
-    image: /images/feature/feature-card-one.png
-    image_alt: Message inbox
-    title: Simply click and send
+    image: /uploads/feature-card-one.png
+    image_alt: data-protection
+    title: Veilig & vertrouwelijk
     description: >-
-      Make your message stand out, thanks to the guided copywriting and design
-      features, triggering a positive response from your customers.
+      Onze AI-notulistentool is ontworpen met uw vertrouwen als kernwaarde. Wij
+      hanteren strikte beveiligingsprotocollen en zijn volledig toegewijd aan de
+      Algemene Verordening Gegevensbescherming (GDPR) om uw gegevens te
+      beschermen.
     button:
       link: /signup
       text: Try This Free
