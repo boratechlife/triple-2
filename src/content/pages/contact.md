@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: Contact
 seo:
   page_description:
@@ -10,36 +11,38 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: contact/hero
-    title: Let's talk.
-    description: Have a question or suggestion? Feel free to drop us a message!
+    title: Eens praten?
+    description: >-
+      Heb je een vraag of suggestie? Stuur een email of bel ons op +31 (0)6 13
+      27 08 33
   - _bookshop_name: contact/form
     address:
-      heading: Office Address
-      address: 123 Train St, San Francisco, CA 9107
+      heading: Hoofdkantoor
+      address: Müllheimerstrasse 55, Basel, Zwitserland
     phone:
       heading: Phone
-      cell: (123) 456 - 7895
+      cell: +31 (0)6 13 27 08 33
       image: /images/contact/call-add.svg
       image_alt: call-add
     email:
       heading: Email
-      email: info@example.com
+      email: bram@triple.blue
       image: /images/contact/directbox-send.svg
       image_alt: send-box
     form:
-      heading: Say Hello
+      heading: Hallo.
       fullname:
-        heading: Full Name
-        placeholder: Enter First Name
+        heading: Volledige naam
+        placeholder: Jan Janssen
       phone_number:
-        heading: Phone number
-        placeholder: Enter Phone Number
+        heading: Telefoonnummer
+        placeholder: Vul je telefoonnummer in...
       email:
-        heading: Email Address
-        placeholder: Enter Email Address
+        heading: Email
+        placeholder: Vul je email in...
       message:
-        heading: Your Messages
-        placeholder: Enter your message
+        heading: Jouw bericht
+        placeholder: Typ je bericht...
       submit_button:
-        text: Send message
+        text: Verstuur
 ---
