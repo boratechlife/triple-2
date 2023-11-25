@@ -19,7 +19,7 @@ content_blocks:
       link: /signup
       text: Probeer gratis
     image: /uploads/hero-image-2-2.png
-    image_alt: Charts
+    image_alt: ai-notulist
   - _bookshop_name: global/header
     title: 'De magie van '
     title_suffix: AI Notulist
@@ -39,30 +39,31 @@ content_blocks:
       beschermen.
     button:
       link: /signup
-      text: Try This Free
+      text: Probeer gratis
     reversed: false
   - _bookshop_name: global/feature
-    image: /images/feature/feature-card-two.png
-    image_alt: Visitor chart
-    title: See every lead in one place
+    image: /uploads/feature-card-two.png
+    image_alt: Bliksemsnel notuleren
+    title: Bliksemsnel notuleren
     description: >-
-      Sales analytics and automation made simple: see every sales lead in one
-      place, regardless of where it came from.
+      Onze AI-gestuurde tool vermindert de tijd die nodig is voor het notuleren
+      van vergaderingen drastisch, van uren naar minuten, zonder in te boeten op
+      detail of kwaliteit.
     button:
       link: /signup
-      text: Try This Free
+      text: Meld je aan voor onze webinar
     reversed: true
   - _bookshop_name: global/feature
-    image: /images/feature/feature-card-three.png
-    image_alt: Upload box
-    title: Free templates to get you started
+    image: /uploads/feature-card-three.png
+    image_alt: insights
+    title: Intelligente inzichten
     description: >-
-      Sendit is used by everyone from small businesses to fortune 500 companies.
-      Browse our collection of email marketing templates and start sending
-      beautiful emails in minutes.
+      Met geavanceerde algoritmes analyseert onze service de inhoud van uw
+      vergaderingen, waardoor u niet alleen accurate notulen krijgt maar ook
+      waardevolle inzichten en actiepunten.
     button:
       link: /signup
-      text: Try This Free
+      text: Probeer gratis
     reversed: false
   - _bookshop_name: global/testimonial
     title: Build relationships that
