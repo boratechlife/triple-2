@@ -18,7 +18,7 @@ content_blocks:
   - _bookshop_name: contact/form
     address:
       heading: Hoofdkantoor
-      address: ImpactHub Basel, Zwitserland
+      address: ImpactHub, Horburgstrasse 105, 4057 Basel, Zwitserland
     phone:
       heading: Phone
       cell: +31 (0)6 13 27 08 33
