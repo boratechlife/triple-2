@@ -116,12 +116,11 @@ content_blocks:
           link: /contact
           text: Contact opnemen
   - _bookshop_name: global/faq
-    title: Have
-    title_suffix: Questions?
+    title: Nog
+    title_suffix: vragen?
     description: >-
-      We believe that a good email marketing strategy is the key to growth. So
-      we’re helping you grow your business with tools and resources that make
-      email marketing easy.
+      We hebben hieronder de meest gestelde vragen proberen samen te vatten.
+      Mocht je nog andere vragen hebben, neem dan gerust contact met ons op.
     FAQ:
       - title: Is there a maximum numbers of emails I can send each month?
         description: No, the prices include unlimited emails. Send to your heart's content.
