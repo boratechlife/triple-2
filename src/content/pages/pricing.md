@@ -1,5 +1,6 @@
 ---
-title: Pricing
+_schema: default
+title: Prijs
 seo:
   page_description:
   canonical_url:
@@ -10,16 +11,17 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: pricing/hero
-    title: A plan for everyone
-    description: Sendit is easy to get started and we have a pricing plan for businesses of all sizes.
-
+    title: Pakket op maat.
+    description: >-
+      AI Notulist biedt een brede mogelijkheid aan opties aan voor kleine en
+      grote klanten.
   - _bookshop_name: pricing/table
     pricing_tier:
-      - tier: Free
+      - tier: Basis
         highlight_tier: false
-        description: Everything you need to get started.
-        currency_symbol: $
-        price: 0
+        description: Maak gebruik van alle standaard beschikbare templates
+        currency_symbol: Vanaf €
+        price: 50
         has_discount: false
         discount_price: 0
         features:
@@ -43,13 +45,13 @@ content_blocks:
             active_feature: false
         button:
           link: /signup
-          text: Try This Free
+          text: Gratis uitproberen
       - tier: Pro
         highlight_tier: true
-        description: More collaborative power and unlimited boards for fast-growing.
-        currency_symbol: $
-        price: 199
-        has_discount: true
+        description: Eigen templates op maat met geadvanceerde controle door AI
+        currency_symbol: Vanaf €
+        price: 75
+        has_discount: false
         discount_price: 125
         features:
           - item: 1 Email Campaign
@@ -72,14 +74,14 @@ content_blocks:
             active_feature: false
         button:
           link: /signup
-          text: Try This Free
-      - tier: Business
+          text: Gratis uitproberen
+      - tier: Zakelijk
         highlight_tier: false
-        description: For starters Includes unlimited members
-        currency_symbol: $
-        price: 499
-        has_discount: true
-        discount_price: 350
+        description: Extra kwaliteitscontrole door een ervaren notulist.
+        currency_symbol: Vanaf €
+        price: 95
+        has_discount: false
+        discount_price: 0
         features:
           - item: 1 Email Campaign
             active_feature: true
@@ -101,19 +103,34 @@ content_blocks:
             active_feature: true
         button:
           link: /signup
-          text: Try This Free
-
+          text: Gratis uitproberen
+      - tier: Niet overtuigd?
+        highlight_tier: false
+        description: We overtuigen u graag met een vrijblijvend voorbeeld
+        currency_symbol: €
+        price: 0
+        has_discount: false
+        discount_price: 0
+        features: []
+        button:
+          link: /contact
+          text: Contact opnemen
   - _bookshop_name: global/faq
     title: Have
     title_suffix: Questions?
-    description: We believe that a good email marketing strategy is the key to growth. So we’re helping you grow your business with tools and resources that make email marketing easy.
+    description: >-
+      We believe that a good email marketing strategy is the key to growth. So
+      we’re helping you grow your business with tools and resources that make
+      email marketing easy.
     FAQ:
       - title: Is there a maximum numbers of emails I can send each month?
         description: No, the prices include unlimited emails. Send to your heart's content.
       - title: Where can I find out more information?
         description: Right here on this website, or contact our support team.
       - title: Do you have pricing for non-profits?
-        description: Yes, contact our support team and we'll get you set up on our non-profit plan.
+        description: >-
+          Yes, contact our support team and we'll get you set up on our
+          non-profit plan.
       - title: What forms of payment do you accept?
         description: We accept credit cards, checks, and cash.
       - title: In which currencies can I make payments?
