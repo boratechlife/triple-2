@@ -1,0 +1,33 @@
+{
+  "logo": "/images/logo.svg",
+  "items": [
+    {
+      "link": "/",
+      "text": "Home"
+    },
+    {
+      "link": "/features/",
+      "text": "Functionaliteiten"
+    },
+    {
+      "link": "/pricing/",
+      "text": "Prijs"
+    },
+    {
+      "link": "/about/",
+      "text": "Over"
+    },
+    {
+      "link": "/blog/",
+      "text": "Blog"
+    },
+    {
+      "link": "/contact/",
+      "text": "Contact"
+    }
+  ],
+  "btn": {
+    "link": "/signup/",
+    "text": "Uitproberen"
+  }
+}
