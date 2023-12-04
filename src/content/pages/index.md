@@ -19,7 +19,7 @@ content_blocks:
     image_alt: Reports dashboard
     button:
       text: Probeer gratis
-      link: /signup/
+      link: /contact/
   - _bookshop_name: global/counter
     title: '95% sneller '
     title_suffix: notuleren
@@ -51,7 +51,7 @@ content_blocks:
       notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
       team helpt u graag bij het opzetten van een demo.
     button:
-      link: mailto:bram@triple.blue?subject=Demo%20VvE%20AI%20Notuleersoftware
+      link: /contact/
       text: Demo aanvragen
     video:
       image: ''
@@ -75,7 +75,7 @@ content_blocks:
       aan de Algemene Verordening Gegevensbescherming (GDPR) om uw gegevens te
       beschermen.
     button:
-      link: /signup
+      link: /contact/
       text: Probeer gratis
     reversed: false
   - _bookshop_name: global/feature
@@ -87,8 +87,8 @@ content_blocks:
       notuleren van vergaderingen drastisch, van uren naar minuten, zonder in te
       boeten op detail of kwaliteit.
     button:
-      link: /signup
-      text: Demo aanvragen
+      link: /contact
+      text: Meld je aan voor een gratis demo
     reversed: true
   - _bookshop_name: global/feature
     image: /uploads/feature-card-three.png
@@ -99,8 +99,8 @@ content_blocks:
       vergaderingen, waardoor u niet alleen accurate notulen krijgt maar ook
       waardevolle inzichten en actiepunten.
     button:
-      link: /signup
-      text: Probeer gratis
+      link: /contact
+      text: Meer informatie opvragen
     reversed: false
   - _bookshop_name: global/testimonial
     title: Luister niet naar ons.
