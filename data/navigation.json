@@ -10,16 +10,12 @@
       "text": "Functionaliteiten"
     },
     {
-      "link": "/faq/",
-      "text": "Vragen?"
-    },
-    {
       "link": "/about/",
       "text": "Over"
     },
     {
-      "link": "/blog/",
-      "text": "Blog"
+      "link": "/faq/",
+      "text": "Vragen?"
     },
     {
       "link": "/contact/",
@@ -27,7 +23,7 @@
     }
   ],
   "btn": {
-    "link": "/signup/",
-    "text": "Uitproberen"
+    "link": "/contact/",
+    "text": "Demo aanvraag"
   }
 }
