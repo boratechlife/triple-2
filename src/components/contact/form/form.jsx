@@ -50,6 +50,8 @@ export default function ContactForm(block) {
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2">
+          <div className="calendly-inline-widget" data-url="https://calendly.com/tripleblue/demo-ai-notulistensoftware-vve" style={{ minWidth: "320px", height: "700px" }}></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             <div className="contact-form">
               {block.form && (
                 <>
