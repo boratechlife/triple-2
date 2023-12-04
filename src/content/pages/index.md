@@ -45,15 +45,14 @@ content_blocks:
         suffix: '%'
         text: Gemiddelde kostenreductie
   - _bookshop_name: about/video
-    title: Bespaar geld en tijd met AI aan uw zijde
+    title: Bespaar geld en tijd met VvE AI notulist aan uw zijde
     description: >-
       Notuleren kost veel tijd, en dus geld. Onze VvE-gespecialiseerde
-      notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Het
-      enige wat wij nodig hebben is een audiobestand. Ons team helpt u graag bij
-      het doen van een vrijblijvende pilot.
+      notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
+      team helpt u graag bij het opzetten van een demo.
     button:
       link: mailto:bram@triple.blue?subject=Demo%20VvE%20AI%20Notuleersoftware
-      text: Vrijblijvende pilot aanvragen
+      text: Demo aanvragen
     video:
       image: ''
       image_alt:
