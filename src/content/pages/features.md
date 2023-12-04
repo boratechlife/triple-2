@@ -14,7 +14,8 @@ content_blocks:
     title: Stop met typen.
     description: >-
       We helpen jou 95% sneller notuleren met dezelfde kwaliteit. Kunstmatige
-      intelligentie helpt jou een handje op een veilige & vertrouwelijke manier.
+      intelligentie helpt jou een handje op een veilige & vertrouwelijke
+      manier.&nbsp;
     button:
       link: /signup
       text: Probeer gratis
