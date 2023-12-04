@@ -20,7 +20,7 @@ content_blocks:
       link: /signup
       text: Probeer gratis
     image: /uploads/hero-image-2-2.png
-    image_alt: ai-notulist
+    image_alt: vve-notulist
   - _bookshop_name: global/header
     title: 'De magie van '
     title_suffix: AI Notulist
