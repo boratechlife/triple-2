@@ -53,12 +53,11 @@ content_blocks:
         suffix: '%'
         text: Gemiddelde kostenbesparing
   - _bookshop_name: about/video
-    title: Onze klanten noemen ons tool "magisch"
+    title: Onze klanten noemen het "bijna magie"
     description: >-
-      Wij vinden het als team een enorm geluk om een product te bouwen dat een
-      tijdrovende uitdaging oplost voor veel organisaties. Het is de kracht van
-      de mens en AI die in ons product naar voren komt én de beste notulen als
-      resultaat heeft!
+      Notuleren kost veel tijd, en dus geld. Onze VvE-gespecialiseerde
+      notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
+      team helpt u graag bij het opzetten van een demo.
     button:
       link: mailto:bram@triple.blue?subject=VvE%20AI%20Notuleersoftware
       text: Stuur ons een e-mail
