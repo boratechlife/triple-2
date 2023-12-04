@@ -17,17 +17,17 @@ content_blocks:
       intelligentie helpt jou een handje op een veilige & vertrouwelijke
       manier.&nbsp;
     button:
-      link: /signup
-      text: Probeer gratis
+      link: /contact
+      text: Neem contact met ons op
     image: /uploads/hero-image-2-2.png
     image_alt: vve-notulist
   - _bookshop_name: global/header
     title: 'De magie van '
-    title_suffix: AI Notulist
+    title_suffix: notuleren met AI
     description: >-
-      Ons platform is uw geheime wapen voor efficiënt notuleren, uitgerust met
-      geavanceerde functies zoals automatische transcriptie van vergaderingen,
-      intelligente thema-herkenning, en op maat gemaakte functies. An
+      Bij VvE Notulist staat kwaliteit voorop in het notuleerproces. Wij
+      waarborgen dit door de inzet van geavanceerde AI-technologieën, die zorgen
+      voor nauwkeurigheid, consistentie en efficiëntie.&nbsp;
     remove_top_padding: false
   - _bookshop_name: global/feature
     image: /uploads/feature-card-one.png
@@ -39,7 +39,7 @@ content_blocks:
       aan de Algemene Verordening Gegevensbescherming (AVG/GDPR) om uw gegevens
       te beschermen.
     button:
-      link: /signup
+      link: /contact
       text: Probeer gratis
     reversed: false
   - _bookshop_name: global/feature
@@ -51,8 +51,8 @@ content_blocks:
       van vergaderingen drastisch, van uren naar minuten, zonder in te boeten op
       detail of kwaliteit.
     button:
-      link: /signup
-      text: Meld je aan voor onze webinar
+      link: /contact
+      text: Meld je aan voor een demo
     reversed: true
   - _bookshop_name: global/feature
     image: /uploads/feature-card-three.png
@@ -64,7 +64,7 @@ content_blocks:
       waardevolle inzichten en actiepunten.
     button:
       link: /signup
-      text: Probeer gratis
+      text: Meer informatie
     reversed: false
   - _bookshop_name: global/testimonial
     title: Luister niet naar ons.
