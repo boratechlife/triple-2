@@ -1,4 +1,7 @@
+import React from 'react';
+import CalendlyWidget from './CalendlyWidget'; // Import the CalendlyWidget component
 import MarkdownIt from "markdown-it";
+
 const md = new MarkdownIt({ html: true });
 
 export default function HomeHero(block) {
@@ -22,18 +25,15 @@ export default function HomeHero(block) {
                     href={block.button.link}
                     className="btn btn-primary btn-lg"
                   >
-                    {" "}
-                    {block.button.text}{" "}
+                    {block.button.text}
                   </a>
                 )}
               </div>
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="hero-two-banner">
-              <img src={block.image} alt={block.image_alt} />
-              <div className="hero-two-banner-shape"></div>
-            </div>
+            {/* Include Calendly widget here */}
+            <CalendlyWidget />
           </div>
         </div>
       </div>
