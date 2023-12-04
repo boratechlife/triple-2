@@ -54,9 +54,9 @@ content_blocks:
       link: mailto:bram@triple.blue?subject=Demo%20VvE%20AI%20Notuleersoftware
       text: Demo aanvragen
     video:
-      image: /images/works/banner.jpg
-      image_alt: Placeholder image for the video
-      link: https://vimeo.com/45830194
+      image: ''
+      image_alt:
+      link:
   - _bookshop_name: global/header
     title: Kwaliteit
     title_suffix: ' voorop'
