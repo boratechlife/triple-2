@@ -41,7 +41,7 @@ content_blocks:
         suffix: '%'
         text: Gemiddelde tijdbesparing
       - prefix:
-        number: 20
+        number: 25
         suffix: '%'
         text: Gemiddelde kostenreductie
   - _bookshop_name: about/video
