@@ -66,7 +66,7 @@ content_blocks:
       image_alt:
       link:
   - _bookshop_name: about/team
-    title: Ons team
+    title: Wij staan voor u klaar.
     team_members:
       - name: Dennis Beemsterboer
         designation: Co-Founder
