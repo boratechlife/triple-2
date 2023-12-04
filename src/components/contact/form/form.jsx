@@ -51,7 +51,11 @@ export default function ContactForm(block) {
           </div>
           <div className="col-lg-6 order-1 order-lg-2">
             <div className="contact-form">
-              {block.form && (
+              <!-- Calendly inline widget begin -->
+              <div class="calendly-inline-widget" data-url="https://calendly.com/bram-tripleblue/30min-demo" style="min-width:320px;height:700px;"></div>
+              <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+              <!-- Calendly inline widget end -->
+              <!-- {block.form && (
                 <>
                   <form method="post">
                     <h3>{block.form.heading}</h3>
@@ -141,7 +145,7 @@ export default function ContactForm(block) {
                         </button>
                       </div>
                     )}
-                  </form>
+                  </form>-->
                 </>
               )}
               <div className="effect"></div>
