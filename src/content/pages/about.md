@@ -61,10 +61,9 @@ content_blocks:
       link: https://www.linkedin.com/company/tripleblue/
       text: Volg ons op LinkedIn
     video:
-      image: /uploads/feature-card-three-1.png
-      image_alt: Thumbnail image for video
-      link: >-
-        mailto:bram@triple.blue?subject=AI%20Notulist&body=Beste%20Bram%2C%0A%0AIk%20zou%20graag%20meer%20informatie%20willen%20ontvangen%20over%20AINotulist.%20Zouden%20wij%20een%20afspraak%20kunnen%20maken%20voor%20een%20demo%3F%0A%0AAlvast%20bedankt!%0A%0AMet%20vriendelijke%20groet%2C
+      image: ''
+      image_alt:
+      link:
   - _bookshop_name: about/team
     title: Ons team
     team_members:
