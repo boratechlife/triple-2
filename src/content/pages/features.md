@@ -34,10 +34,10 @@ content_blocks:
     image_alt: data-protection
     title: Veilig & vertrouwelijk
     description: >-
-      Onze AI-notulistentool is ontworpen met uw vertrouwen als kernwaarde. Wij
-      hanteren strikte beveiligingsprotocollen en zijn volledig toegewijd aan de
-      Algemene Verordening Gegevensbescherming (GDPR) om uw gegevens te
-      beschermen.
+      Onze AI-notulistensoftware is ontworpen met uw vertrouwen als kernwaarde.
+      Wij hanteren strikte beveiligingsprotocollen en zijn volledig toegewijd
+      aan de Algemene Verordening Gegevensbescherming (AVG/GDPR) om uw gegevens
+      te beschermen.
     button:
       link: /signup
       text: Probeer gratis
