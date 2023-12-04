@@ -13,8 +13,8 @@ content_blocks:
   - _bookshop_name: home/hero
     title: Ontdek de kracht van notuleren met AI
     description: >-
-      Met onze gespecialiseerde VvE notuleersoftware notuleer je makkelijker,
-      sneller en goedkoper. Dat is ons doel.&nbsp;
+      Met onze gespecialiseerde VvE notuleersoftware tripleblueAI™ notuleer je
+      makkelijker, sneller en goedkoper. Dat is ons doel.&nbsp;
     image: /uploads/hero-image-2-5.png
     image_alt: Reports dashboard
     button:
@@ -24,62 +24,71 @@ content_blocks:
     title: '95% sneller '
     title_suffix: notuleren
     description: >-
-      Wij bieden de toekomst van notuleren met onze AI-gedreven tool die
+      Wij bieden de toekomst van notuleren met onze AI-gedreven software die
       tijdrovend werk verandert in een taak van enkele minuten.
     alternate_style: false
     numbers:
       - prefix:
-        number: 250
+        number: 1000
         suffix: +
-        text: Tevreden notulisten
+        text: tevreden VvEs
       - prefix:
         number: 4000
         suffix: +
         text: Voltooide opdrachten
       - prefix:
-        number: 40
-        suffix: +
-        text: Organisaties als klant
+        number: 95
+        suffix: '%'
+        text: Gemiddelde tijdbesparing
       - prefix:
-        number: 2023
-        suffix:
-        text: Opgericht in
-  - _bookshop_name: home/video
-    image: /images/video/video-thum.jpg
-    image_alt: Thumbnail for video
-    video_url: https://vimeo.com/45830194
-  - _bookshop_name: global/header
-    title: 'De magie van '
-    title_suffix: AI Notulist
+        number: 20
+        suffix: '%'
+        text: Gemiddelde kostenreductie
+  - _bookshop_name: about/video
+    title: Bespaar geld en tijd met VvE AI notulist aan uw zijde
     description: >-
-      Ons platform is uw geheime wapen voor efficiënt notuleren, uitgerust met
-      geavanceerde functies zoals automatische transcriptie van vergaderingen,
-      intelligente thema-herkenning, en op maat gemaakte functies. An
+      Notuleren kost veel tijd, en dus geld. Onze VvE-gespecialiseerde
+      notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
+      team helpt u graag bij het opzetten van een demo.
+    button:
+      link: mailto:bram@triple.blue?subject=Demo%20VvE%20AI%20Notuleersoftware
+      text: Demo aanvragen
+    video:
+      image: /images/works/banner.jpg
+      image_alt: Placeholder image for the video
+      link: https://vimeo.com/45830194
+  - _bookshop_name: global/header
+    title: Kwaliteit
+    title_suffix: ' voorop'
+    description: >-
+      Bij VvE Notulist staat kwaliteit voorop in het notuleerproces. Wij
+      waarborgen dit door de inzet van geavanceerde AI-technologieën, die zorgen
+      voor nauwkeurigheid, consistentie en efficiëntie.&nbsp;
     remove_top_padding: true
   - _bookshop_name: global/feature
     image: /uploads/feature-card-one.png
     image_alt: data-protection
     title: Veilig & vertrouwelijk
     description: >-
-      Onze AI-notulistentool is ontworpen met uw vertrouwen als kernwaarde. Wij
-      hanteren strikte beveiligingsprotocollen en zijn volledig toegewijd aan de
-      Algemene Verordening Gegevensbescherming (GDPR) om uw gegevens te
+      Onze AI-notulistensoftware is ontworpen met uw vertrouwen als kernwaarde.
+      Wij hanteren strikte beveiligingsprotocollen en zijn volledig toegewijd
+      aan de Algemene Verordening Gegevensbescherming (GDPR) om uw gegevens te
       beschermen.
     button:
       link: /signup
       text: Probeer gratis
     reversed: false
   - _bookshop_name: global/feature
-    image: /uploads/feature-card-two.png
+    image: /uploads/feature-card-two-1.png
     image_alt: bliksem-notuleren
     title: Bliksemsnel notuleren
     description: >-
-      Onze AI-gestuurde tool vermindert de tijd die nodig is voor het notuleren
-      van vergaderingen drastisch, van uren naar minuten, zonder in te boeten op
-      detail of kwaliteit.
+      Onze AI-gestuurde software vermindert de tijd die nodig is voor het
+      notuleren van vergaderingen drastisch, van uren naar minuten, zonder in te
+      boeten op detail of kwaliteit.
     button:
       link: /signup
-      text: Meld je aan voor onze webinar
+      text: Demo aanvragen
     reversed: true
   - _bookshop_name: global/feature
     image: /uploads/feature-card-three.png
