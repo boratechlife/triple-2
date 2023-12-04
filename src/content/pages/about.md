@@ -12,9 +12,11 @@ seo:
 content_blocks:
   - _bookshop_name: about/hero
     title: Vliegensvlug notuleren met AI aan uw zijde
-    description: Met onze tool ben je 95% sneller met notuleren, dezelfde kwaliteit.&nbsp;
+    description: >-
+      Wij bieden de toekomst van notuleren met onze AI-gedreven software die
+      tijdrovend werk verandert in een taak van enkele minuten.
     hero_images:
-      - image: /uploads/hero-image-2-3.png
+      - image: /uploads/istockphoto-511061090-612x612.jpg
         image_alt: typing on laptop
         placement: front_bottom
       - image: /images/about/aboutfeature-three.jpg
@@ -24,8 +26,8 @@ content_blocks:
         image_alt: secretaresse
         placement: back_top_left
     button:
-      text: Aanmelden voor de gratis webinar
-      link: /signup
+      text: Demo aanvragen
+      link: /contact
   - _bookshop_name: global/counter
     title: '95% sneller '
     title_suffix: notuleren
@@ -35,21 +37,21 @@ content_blocks:
     alternate_style: true
     numbers:
       - prefix:
-        number: 250
+        number: 1000
         suffix: +
-        text: Tevreden notulisten
+        text: tevreden VvEs
       - prefix:
         number: 4000
         suffix: +
         text: Voltooide opdrachten
       - prefix:
-        number: 40
-        suffix: +
-        text: Organisaties als klant
+        number: 95
+        suffix: '%'
+        text: Gemiddelde tijdbesparing
       - prefix:
-        number: 2023
-        suffix:
-        text: Opgericht in
+        number: 25
+        suffix: '%'
+        text: Gemiddelde kostenbesparing
   - _bookshop_name: about/video
     title: Onze klanten noemen ons tool "magisch"
     description: >-
@@ -58,8 +60,8 @@ content_blocks:
       de mens en AI die in ons product naar voren komt én de beste notulen als
       resultaat heeft!
     button:
-      link: https://www.linkedin.com/company/tripleblue/
-      text: Volg ons op LinkedIn
+      link: mailto:bram@triple.blue?subject=VvE%20AI%20Notuleersoftware
+      text: Stuur ons een e-mail
     video:
       image: ''
       image_alt:
