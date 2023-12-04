@@ -15,7 +15,7 @@ const CalendlyWidget = () => {
 
     return (
         <div className="calendly-inline-widget" 
-             data-url="https://calendly.com/your-calendly-link" 
+             data-url="https://calendly.com/tripleblue/demo-ai-notulistensoftware-vve" 
              style={{ minWidth: '320px', height: '700px' }} />
     );
 };
