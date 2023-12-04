@@ -11,11 +11,10 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Ontdek de kracht van notuleren met AI.
+    title: Ontdek de kracht van notuleren met AI
     description: >-
-      Makkelijker, sneller en goedkoper notuleren. Met onze gespecialiseerde VvE
-      notuleersoftware ontvang je de notulen binnen 24 uur, dezelfde
-      kwaliteit.&nbsp;
+      Met onze gespecialiseerde VvE notuleersoftware notuleer je makkelijker,
+      sneller en goedkoper. Dat is ons doel.&nbsp;
     image: /images/hero/hero-image-2.png
     image_alt: Reports dashboard
     button:
