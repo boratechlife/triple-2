@@ -110,7 +110,7 @@ content_blocks:
       - image: /uploads/user-testimonial-1.jpeg
         image_alt:
         author: Nina Bauer
-        designation: Eigenaar, Nina Officemanagement
+        designation: Eigenaar, NB Officemanagement
         message: >-
           "Werken met de tooling van Triple Blue scheelt mij veel tijd als het
           gaat om het uitwerken van notulen en verslagen. Die tijd kan ik
