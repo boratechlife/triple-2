@@ -127,11 +127,4 @@ content_blocks:
           audits (juridische doorlichting van organisaties) nemen wij de
           auditgesprekken op en verwerken dat met de tool van Tripleblue AI
           Notulist. De kwaliteit is prima en het scheelt ons veel tijd."
-      - image: /images/testimonial/logo-4.jpg
-        image_alt: Profile photo of Simon Moriarty
-        author: Simon Moriarty
-        designation: Head of Marketing at Pinnacle Mines
-        message: >-
-          I can't imagine life without Sendit now, I have no idea how we were
-          surviving before.
 ---
