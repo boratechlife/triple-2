@@ -76,9 +76,11 @@ content_blocks:
         author: Nina Bauer
         designation: Eigenaar, Nina Officemanagement
         message: >-
-          "AI Notulist is echt een gamechanger voor mij! Het is super snel en
-          makkelijk in gebruik, waardoor ik veel meer kostbare tijd overhoud
-          voor belangrijke dingen."
+          "Werken met de tooling van Triple Blue scheelt mij veel tijd als het
+          gaat om het uitwerken van notulen en verslagen. Die tijd kan ik
+          vervolgens gebruiken voor andere taken. Dit bevordert mijn
+          professionaliteit. AI heeft de toekomst! En ik kan het een ieder
+          aanraden die notulen moet maken."
       - image: /uploads/user-testimonial-2.jpg
         image_alt: Profile photo of Henri Vogel
         author: Henri Vogel
