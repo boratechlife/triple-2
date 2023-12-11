@@ -50,12 +50,8 @@
       "title": "Community",
       "links": [
         {
-          "link": "/blog/",
-          "text": "Blog"
-        },
-        {
-          "link": "/feed.xml",
-          "text": "RSS Feed"
+          "link": "",
+          "text": ""
         }
       ]
     },
