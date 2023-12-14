@@ -67,8 +67,8 @@ content_blocks:
       text: Meer informatie
     reversed: false
   - _bookshop_name: global/testimonial
-    title: Luister niet naar ons.
-    title_suffix: Maar naar hen die het dagelijks gebruiken.
+    title: Luister niet naar ons,
+    title_suffix: ' maar naar degenen die het dagelijks gebruiken.'
     description: Het resultaat is hetzelfde. De manier waarop is revolutionair.
     slider:
       - image: /uploads/user-testimonial-1.jpeg
