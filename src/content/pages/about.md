@@ -22,7 +22,7 @@ content_blocks:
       - image: /uploads/photo-buildings.png
         image_alt: Group working on a laptop
         placement: back_top_right
-      - image: /uploads/hero-image-2-4.png
+      - image: /uploads/photo-buildings-2.png
         image_alt: secretaresse
         placement: back_top_left
     button:
