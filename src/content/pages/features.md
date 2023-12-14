@@ -11,14 +11,17 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: feature/hero
-    title: Stop met typen.
+    title: Hoe het werkt
     description: >-
-      We helpen jou 95% sneller notuleren met dezelfde kwaliteit. Kunstmatige
-      intelligentie helpt jou een handje op een veilige & vertrouwelijke
-      manier.&nbsp;
+      1. #### **Maak een geluidsopname van de VvE-vergadering.**&nbsp;
+
+      2. #### **Upload de opname en agenda via de webapplicatie**&nbsp;
+
+      3. #### **Binnen 1 à 2 dagen ontvangt u een e-mail dat u notulen klaar
+      staan.**
     button:
       link: /contact
-      text: Neem contact met ons op
+      text: Eens uitproberen? Meld je aan voor een test
     image: /uploads/hero-image-2-2.png
     image_alt: vve-notulist
   - _bookshop_name: global/header
@@ -67,29 +70,4 @@ content_blocks:
       link: /signup
       text: Meer informatie
     reversed: false
-  - _bookshop_name: global/testimonial
-    title: Luister niet naar ons,
-    title_suffix: ' maar naar degenen die het dagelijks gebruiken.'
-    description: Het resultaat is hetzelfde. De manier waarop is revolutionair.
-    slider:
-      - image: /uploads/user-testimonial-1.jpeg
-        image_alt: Profile photo of Nina Bauer
-        author: Nina Bauer
-        designation: Eigenaar, NB Officemanagement
-        message: >-
-          "Werken met de tooling van Triple Blue scheelt mij veel tijd als het
-          gaat om het uitwerken van notulen en verslagen. Die tijd kan ik
-          vervolgens gebruiken voor andere taken. Dit bevordert mijn
-          professionaliteit. AI heeft de toekomst! En ik kan het een ieder
-          aanraden die notulen moet maken."
-      - image: /uploads/user-testimonial-2.jpg
-        image_alt: Profile photo of Henri Vogel
-        author: Henri Vogel
-        designation: Eigenaar, VIA De Leeuw
-        message: >-
-          "VIA de Leeuw maakt voor haar onderzoeksopdrachten gebruik van de
-          diensten van Tripleblue AI Notulist. Bij de uitvoering van zgn legal
-          audits (juridische doorlichting van organisaties) nemen wij de
-          auditgesprekken op en verwerken dat met de tool van Tripleblue AI
-          Notulist. De kwaliteit is prima en het scheelt ons veel tijd."
 ---
