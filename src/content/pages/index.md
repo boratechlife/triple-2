@@ -29,21 +29,21 @@ content_blocks:
     alternate_style: false
     numbers:
       - prefix:
-        number: 1000
+        number: 750
         suffix: +
         text: tevreden VvEs
       - prefix:
         number: 4000
         suffix: +
-        text: Voltooide opdrachten
+        text: bespaarde notuleeruren
       - prefix:
-        number: 95
-        suffix: '%'
-        text: Gemiddelde tijdbesparing
+        number: 48
+        suffix: ' uur'
+        text: van audio tot notulen
       - prefix:
         number: 25
         suffix: '%'
-        text: Gemiddelde kostenreductie
+        text: minder kosten
   - _bookshop_name: about/video
     title: Bespaar geld en tijd met VvE AI notulist aan uw zijde
     description: >-
