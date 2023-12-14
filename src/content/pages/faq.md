@@ -93,6 +93,10 @@ content_blocks:
           nodigen wij u uit om contact met ons op te nemen, zodat we uw
           specifieke eisen en wensen kunnen bespreken en een op maat gemaakte
           offerte kunnen voorstellen.
+
+
+          Vragen? Stuur een bericht naar
+          [bram@triple.blue](mailto:bram@triple.blue)
       - title: Kan ik het integreren in mijn bestaande beheerdersoftware?
         description: >-
           Ja, wij bieden de mogelijkheid om de resultaten uit onze AI
