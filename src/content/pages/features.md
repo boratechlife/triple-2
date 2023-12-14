@@ -45,7 +45,7 @@ content_blocks:
   - _bookshop_name: global/feature
     image: /uploads/feature-card-two.png
     image_alt: Hoe het werkt
-    title: Hoe het wert
+    title: Hoe het werkt
     description: >-
       1\. Maak een geluidsopname van de VvE-vergadering. Advies nodig? Wij
       helpen je graag mee voor de juiste geluidskwaliteit.&nbsp;<br>2\. Upload
