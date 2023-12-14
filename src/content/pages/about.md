@@ -37,21 +37,21 @@ content_blocks:
     alternate_style: true
     numbers:
       - prefix:
-        number: 1000
+        number: 750
         suffix: +
         text: tevreden VvEs
       - prefix:
         number: 4000
         suffix: +
-        text: Voltooide opdrachten
+        text: bespaarde notuleeruren
       - prefix:
-        number: 95
-        suffix: '%'
-        text: Gemiddelde tijdbesparing
+        number: 48
+        suffix: ' uur'
+        text: van audio tot notulen
       - prefix:
         number: 25
         suffix: '%'
-        text: Gemiddelde kostenbesparing
+        text: minder kosten
   - _bookshop_name: about/video
     title: Onze klanten noemen het "bijna magie"
     description: >-
