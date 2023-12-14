@@ -106,12 +106,12 @@ content_blocks:
           naar diverse softwaresystemen.
 
 
-          Wij begrijpen dat een soepele integratie met uw huidige systemen van
-          cruciaal belang is voor efficiëntie en gebruiksgemak. Ons team staat
-          klaar om met u samen te werken om een naadloze integratie te
-          realiseren. Neem gerust contact met ons op om uw specifieke behoeften
-          te bespreken en we kunnen samen een oplossing vinden die het beste bij
-          uw organisatie past.
+          We begrijpen dat een soepele integratie van essentieel belang is voor
+          efficiëntie en gebruiksgemak. Ons team staat klaar om samen met u te
+          werken aan een naadloze integratie in jullie werkprocessen. Aarzel
+          niet om contact met ons op te nemen om uw specifieke behoeften te
+          bespreken, zodat we een oplossing kunnen vinden die het beste bij uw
+          organisatie past.
       - title: Wat is het verschil met klassieke  transcriptie software?
         description: >-
           Het verschil tussen onze AI notuleersoftware en klassieke
