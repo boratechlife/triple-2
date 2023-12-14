@@ -99,11 +99,11 @@ content_blocks:
           [bram@triple.blue](mailto:bram@triple.blue)
       - title: Kan ik het integreren in mijn bestaande beheerdersoftware?
         description: >-
-          Ja, wij bieden de mogelijkheid om de resultaten uit onze AI
-          notuleersoftware te integreren in uw bestaande beheerderssoftware
-          (zoals Twinq). Als u specifiek geïnteresseerd bent in het automatisch
-          overzetten van de notulen naar Twinq of een ander beheersysteem,
-          kunnen wij dit samen met u verkennen.
+          Hoewel we momenteel geen integraties met bestaande beheerderssoftware
+          (zoals Twinq en Convect) ondersteunen, streven we ernaar om deze
+          mogelijkheid in de toekomst te bieden. We leveren echter wel notulen
+          in het gewenste formaat, zodat deze eenvoudig kunnen worden overgezet
+          naar diverse softwaresystemen.
 
 
           Wij begrijpen dat een soepele integratie met uw huidige systemen van
