@@ -81,11 +81,12 @@ content_blocks:
   - _bookshop_name: global/feature
     image: /uploads/feature-card-two-1.png
     image_alt: bliksem-notuleren
-    title: Bliksemsnel notuleren
+    title: Hoe het werkt
     description: >-
-      Onze AI-gestuurde software vermindert de tijd die nodig is voor het
-      notuleren van vergaderingen drastisch, van uren naar minuten, zonder in te
-      boeten op detail of kwaliteit.
+      1\. Maak een geluidsopname van de VvE-vergadering. Advies nodig? Wij
+      helpen je graag mee voor de juiste geluidskwaliteit.&nbsp;<br>2\. Upload
+      de opname en agenda via de webapplicatie&nbsp;<br>3\. Binnen 1 à 2 dagen
+      ontvangt u een e-mail met het voltooide notulen document.
     button:
       link: /contact
       text: Meld je aan voor een gratis demo
