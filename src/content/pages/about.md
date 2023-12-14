@@ -28,6 +28,25 @@ content_blocks:
     button:
       text: Demo aanvragen
       link: /contact
+  - _bookshop_name: about/team
+    title: Wij staan voor u klaar.
+    team_members:
+      - name: Dennis Beemsterboer
+        designation: Co-Founder
+        image: /uploads/feature-card-three-1-1.png
+        image_alt: 'Team member: Nikolas Mcconnell'
+      - name: Bram van de Meerendonk
+        designation: Co-founder
+        image: /uploads/feature-card-three-2.png
+        image_alt: 'Team member: Bram'
+      - name: Freek Boelders
+        designation: Co-founder
+        image: /uploads/feature-card-three-3.png
+        image_alt: 'Team member: Freek Boelders'
+      - name: Evi Marler
+        designation: Business Developer
+        image: /uploads/feature-card-three-4.png
+        image_alt: 'Team member: Evi Marler'
   - _bookshop_name: global/counter
     title: '95% sneller '
     title_suffix: notuleren
@@ -65,23 +84,4 @@ content_blocks:
       image: ''
       image_alt:
       link:
-  - _bookshop_name: about/team
-    title: Wij staan voor u klaar.
-    team_members:
-      - name: Dennis Beemsterboer
-        designation: Co-Founder
-        image: /uploads/feature-card-three-1-1.png
-        image_alt: 'Team member: Nikolas Mcconnell'
-      - name: Bram van de Meerendonk
-        designation: Co-founder
-        image: /uploads/feature-card-three-2.png
-        image_alt: 'Team member: Bram'
-      - name: Freek Boelders
-        designation: Co-founder
-        image: /uploads/feature-card-three-3.png
-        image_alt: 'Team member: Freek Boelders'
-      - name: Evi Marler
-        designation: Business Developer
-        image: /uploads/feature-card-three-4.png
-        image_alt: 'Team member: Evi Marler'
 ---
