@@ -29,9 +29,9 @@ content_blocks:
     alternate_style: false
     numbers:
       - prefix:
-        number: 750
+        number: 1000
         suffix: +
-        text: tevreden VvEs
+        text: jaarlijkse vergaderingen
       - prefix:
         number: 4000
         suffix: +
