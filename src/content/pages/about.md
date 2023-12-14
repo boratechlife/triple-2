@@ -19,7 +19,7 @@ content_blocks:
       - image: /uploads/istockphoto-511061090-612x612.jpg
         image_alt: typing on laptop
         placement: front_bottom
-      - image: /images/about/aboutfeature-three.jpg
+      - image: /uploads/photo-buildings.png
         image_alt: Group working on a laptop
         placement: back_top_right
       - image: /uploads/hero-image-2-4.png
