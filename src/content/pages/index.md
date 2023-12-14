@@ -15,7 +15,7 @@ content_blocks:
     description: >-
       Met onze gespecialiseerde VvE notuleersoftware tripleblueAI™ notuleer je
       makkelijker, sneller en goedkoper. Dat is ons doel.&nbsp;
-    image: /uploads/hero-image-2-5.png
+    image: /uploads/home-image.png
     image_alt: Reports dashboard
     button:
       text: Probeer gratis
