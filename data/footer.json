@@ -37,21 +37,8 @@
           "text": "Functionaliteiten"
         },
         {
-          "link": "/pricing/",
-          "text": "Prijs"
-        },
-        {
           "link": "/about/",
           "text": "Over ons"
-        }
-      ]
-    },
-    {
-      "title": "Community",
-      "links": [
-        {
-          "link": "",
-          "text": ""
         }
       ]
     },
