@@ -11,11 +11,11 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Ontketen de waarde van uw audiodata.
+    title: Ontketen de waarde van uw audiogegevens.
     description: >-
       Bij Tripleblue bouwen we AI-oplossingen om je processen sneller, beter en
       leuker te maken. We zijn gespecialiseerd in het continu ontsluiten van
-      waardevolle inzichten uit je audio- en tekstuele data, op maat gemaakt
+      waardevolle inzichten uit je audio- en tekstuele gegevens, op maat gemaakt
       voor jouw behoeften.
     image: /uploads/home-image.png
     image_alt: Reports dashboard
@@ -34,6 +34,19 @@ content_blocks:
       link: /contact/
       text: Probeer gratis
     reversed: false
+  - _bookshop_name: about/video
+    title: Bespaar geld en tijd met VvE notulist aan uw zijde
+    description: >-
+      Notuleren kost veel tijd, en dus geld. Onze VvE-gespecialiseerde
+      notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
+      team helpt u graag bij het opzetten van een demo.
+    button:
+      link: /contact/
+      text: Demo aanvragen
+    video:
+      image: /uploads/home-image.png
+      image_alt: vve-notulist.nl
+      link: www.vve-notulist.nl
   - _bookshop_name: global/counter
     title: De voordelen van
     title_suffix: vve-notulist.nl
@@ -58,19 +71,13 @@ content_blocks:
         number: 25
         suffix: '%'
         text: minder kosten
-  - _bookshop_name: about/video
-    title: Bespaar geld en tijd met VvE AI notulist aan uw zijde
+  - _bookshop_name: global/header
+    title: 'Onze '
+    title_suffix: producten
     description: >-
-      Notuleren kost veel tijd, en dus geld. Onze VvE-gespecialiseerde
-      notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
-      team helpt u graag bij het opzetten van een demo.
-    button:
-      link: /contact/
-      text: Demo aanvragen
-    video:
-      image: ''
-      image_alt:
-      link:
+      Sendit is the most complete solution to create beautiful email designs,
+      manage mails and send them out at the best price.
+    remove_top_padding: false
   - _bookshop_name: global/feature
     image: /uploads/feature-card-one.png
     image_alt: data-protection
