@@ -4,25 +4,39 @@ title: Home
 seo:
   page_description:
   canonical_url:
-  featured_image:
+  featured_image: /uploads/vve-notulist-screenshot.png
   featured_image_alt:
   author_twitter_handle:
   open_graph_type:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Ontdek de kracht van notuleren met AI
+    title: Ontketen de waarde van uw audiogegevens.
     description: >-
-      Met onze gespecialiseerde VvE notuleersoftware tripleblueAI™ notuleer je
-      makkelijker, sneller en goedkoper. Dat is ons doel.&nbsp;
+      Bij Tripleblue bouwen we AI-oplossingen om je processen sneller, beter en
+      leuker te maken. We zijn gespecialiseerd in het continu ontsluiten van
+      waardevolle inzichten uit je audio- en tekstuele gegevens, op maat gemaakt
+      voor jouw behoeften.
     image: /uploads/home-image.png
     image_alt: Reports dashboard
     button:
       text: Probeer gratis
       link: /contact/
+  - _bookshop_name: global/feature
+    image: /uploads/home-image.png
+    image_alt: data-protection
+    title: VvE-notulist.nl
+    description: >-
+      Notuleren kost veel tijd, en dus geld. Onze VvE-gespecialiseerde
+      notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
+      team helpt u graag bij het opzetten van een demo.
+    button:
+      link: /contact/
+      text: Probeer gratis
+    reversed: false
   - _bookshop_name: global/counter
-    title: '95% sneller '
-    title_suffix: notuleren
+    title: De voordelen van
+    title_suffix: vve-notulist.nl
     description: >-
       Wij bieden de toekomst van notuleren met onze AI-gedreven software die
       tijdrovend werk verandert in een taak van enkele minuten.
@@ -57,14 +71,6 @@ content_blocks:
       image: ''
       image_alt:
       link:
-  - _bookshop_name: global/header
-    title: Kwaliteit
-    title_suffix: ' voorop'
-    description: >-
-      Bij VvE Notulist staat kwaliteit voorop in het notuleerproces. Wij
-      waarborgen dit door de inzet van geavanceerde AI-technologieën, die zorgen
-      voor nauwkeurigheid, consistentie en efficiëntie.&nbsp;
-    remove_top_padding: true
   - _bookshop_name: global/feature
     image: /uploads/feature-card-one.png
     image_alt: data-protection
@@ -103,26 +109,7 @@ content_blocks:
       link: /contact
       text: Meer informatie opvragen
     reversed: false
-  - _bookshop_name: global/testimonial
-    title: Luister niet naar ons.
-    title_suffix: Maar naar hen die het dagelijks gebruiken.
-    description: Het resultaat is hetzelfde. De manier waarop is revolutionair.
-    slider:
-      - image: /uploads/user-testimonial-1.jpeg
-        image_alt:
-        author: Nina Bauer
-        designation: Eigenaar, NB Officemanagement
-        message: >-
-          "Werken met de tooling van Triple Blue scheelt mij veel tijd als het
-          gaat om het uitwerken van notulen en verslagen. Die tijd kan ik
-          vervolgens gebruiken voor andere taken. Dit bevordert mijn
-          professionaliteit. AI heeft de toekomst! En ik kan het een ieder
-          aanraden die notulen moet maken."
-      - image: /uploads/user-testimonial-2.jpg
-        image_alt:
-        author: Henri Vogel
-        designation: Directeur, VIA De Leeuw
-        message: >-
-          "VIA de Leeuw maakt gebruik van de diensten van Tripleblue AI
-          Notuleerservice. De kwaliteit is prima en het scheelt ons veel tijd"
+  - _bookshop_name: about/team
+    title:
+    team_members: []
 ---
