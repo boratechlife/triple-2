@@ -22,27 +22,15 @@ content_blocks:
     button:
       text: Probeer gratis
       link: /contact/
-  - _bookshop_name: global/feature
-    image: /uploads/home-image.png
-    image_alt: data-protection
-    title: VvE-notulist.nl
-    description: >-
-      Notuleren kost veel tijd, en dus geld. Onze VvE-gespecialiseerde
-      notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
-      team helpt u graag bij het opzetten van een demo.
-    button:
-      link: /contact/
-      text: Probeer gratis
-    reversed: false
   - _bookshop_name: about/video
-    title: Bespaar geld en tijd met VvE notulist aan uw zijde
+    title: 'VvE-notulist.nl '
     description: >-
       Notuleren kost veel tijd, en dus geld. Onze VvE-gespecialiseerde
       notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
       team helpt u graag bij het opzetten van een demo.
     button:
-      link: /contact/
-      text: Demo aanvragen
+      link: www.vve-notulist.nl
+      text: Meer informatie
     video:
       image: /uploads/home-image.png
       image_alt: vve-notulist.nl
@@ -71,13 +59,6 @@ content_blocks:
         number: 25
         suffix: '%'
         text: minder kosten
-  - _bookshop_name: global/header
-    title: 'Onze '
-    title_suffix: producten
-    description: >-
-      Sendit is the most complete solution to create beautiful email designs,
-      manage mails and send them out at the best price.
-    remove_top_padding: false
   - _bookshop_name: global/feature
     image: /uploads/feature-card-one.png
     image_alt: data-protection
