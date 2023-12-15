@@ -20,7 +20,7 @@ content_blocks:
     image: /uploads/home-image.png
     image_alt: Reports dashboard
     button:
-      text: Probeer gratis
+      text: Neem contact op
       link: /contact/
   - _bookshop_name: about/video
     title: 'VvE-notulist.nl '
