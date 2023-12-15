@@ -121,11 +121,8 @@ content_blocks:
       - image: /uploads/user-testimonial-2.jpg
         image_alt:
         author: Henri Vogel
-        designation: Oprichter, VIA De Leeuw
+        designation: Directeur, VIA De Leeuw
         message: >-
-          "VIA de Leeuw maakt voor haar onderzoeksopdrachten gebruik van de
-          diensten van Tripleblue AI Notulist. Bij de uitvoering van zgn legal
-          audits (juridische doorlichting van organisaties) nemen wij de
-          auditgesprekken op en verwerken dat met de tool van Tripleblue AI
-          Notulist. De kwaliteit is prima en het scheelt ons veel tijd."
+          "VIA de Leeuw maakt gebruik van de diensten van Tripleblue AI
+          Notuleerservice. De kwaliteit is prima en het scheelt ons veel tijd"
 ---
