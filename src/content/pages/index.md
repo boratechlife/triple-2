@@ -11,11 +11,11 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Ontketen de waarde van uw audiogegevens.
+    title: Ontketen de waarde van uw audiodata.
     description: >-
       Bij Tripleblue bouwen we AI-oplossingen om je processen sneller, beter en
       leuker te maken. We zijn gespecialiseerd in het continu ontsluiten van
-      waardevolle inzichten uit je audio- en tekstuele gegevens, op maat gemaakt
+      waardevolle inzichten uit je audio- en tekstuele data, op maat gemaakt
       voor jouw behoeften.
     image: /uploads/home-image.png
     image_alt: Reports dashboard
