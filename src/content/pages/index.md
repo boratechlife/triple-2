@@ -144,4 +144,19 @@ content_blocks:
         placeholder: Any Message
       submit_button:
         text: Send message
+  - _bookshop_name: global/testimonial
+    title: Part of
+    title_suffix:
+    description: ''
+    slider:
+      - image: /uploads/microsoft-for-startups.jpg
+        image_alt: logo-microsoft-for-startups
+        author: Microsoft for Startups
+        designation:
+        message:
+      - image: /uploads/impacthub.png
+        image_alt: logo-impacthub
+        author: ImpactHub
+        designation:
+        message:
 ---

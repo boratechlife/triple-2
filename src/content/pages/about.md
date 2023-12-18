@@ -11,7 +11,7 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: about/hero
-    title: Vliegensvlug notuleren met AI aan uw zijde
+    title: Werk kan
     description: >-
       Wij bieden de toekomst van notuleren met onze AI-gedreven software die
       tijdrovend werk verandert in een taak van enkele minuten.
