@@ -66,7 +66,7 @@ content_blocks:
     description: >-
       Onze notulistensoftware tripleblueAI™ is ontworpen met uw vertrouwen als
       kernwaarde. Wij hanteren strikte beveiligingsprotocollen en zijn volledig
-      toegewijd aan de Algemene Verordening Gegevensbescherming (GDPR) om uw
+      toegewijd aan de Algemene Verordening Gegevensbescherming (AVG/GDPR) om uw
       gegevens te beschermen.
     button:
       link: /contact/
