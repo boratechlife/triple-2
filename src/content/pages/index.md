@@ -97,21 +97,6 @@ content_blocks:
       link: /contact
       text: Meer informatie opvragen
     reversed: false
-  - _bookshop_name: about/team
-    title: Ons team
-    team_members:
-      - name: Dennis Beemsterboer
-        designation: Co-Founder
-        image: /uploads/feature-card-three-1-1.png
-        image_alt: 'Team member: Dennis Beemsterboer'
-      - name: Bram van de Meerendonk
-        designation: Co-Founder
-        image: /uploads/feature-card-three-2.png
-        image_alt: 'Team member: Bram van de Meerendonk'
-      - name: Freek Boelders
-        designation: Co-Founder
-        image: /uploads/feature-card-three-3.png
-        image_alt: 'Team member: Freek Boelders'
   - _bookshop_name: contact/form
     address:
       heading: >-

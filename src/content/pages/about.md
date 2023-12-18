@@ -29,6 +29,16 @@ content_blocks:
     button:
       text: Demo aanvragen
       link: /contact
+  - _bookshop_name: global/counter
+    title: 'Organisaties helpen te '
+    title_suffix: versnellen
+    description: >-
+      Dat is waar we blij van worden. En vooral voor werk dat eigenlijk iedereen
+      liever niet doet. Wij gebruiken kunstmatige intelligentie om oplossingen
+      te ontwikkelen die hierbij ondersteunen, met veiligheid en
+      vertrouwelijkheid van uw data voorop.
+    alternate_style: false
+    numbers: []
   - _bookshop_name: about/team
     title: Wij staan voor u klaar.
     team_members:
@@ -44,4 +54,16 @@ content_blocks:
         designation: Co-founder
         image: /uploads/feature-card-three-3.png
         image_alt: 'Team member: Freek Boelders'
+  - _bookshop_name: global/feature
+    image: /uploads/feature-card-one.png
+    image_alt: Neem contact met ons op
+    title: Neem contact met ons op
+    description: >-
+      We plannen graag een gesprek om te kijken wat wij kunnen betekenen voor uw
+      als organisatie.
+    button:
+      link: >-
+        mailto:bram@triple.blue?subject=Benieuwd%20naar%20de%20oplossingen%20van%20tripleblue
+      text: Stuur ons een email
+    reversed: false
 ---
