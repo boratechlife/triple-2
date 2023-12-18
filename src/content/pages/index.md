@@ -146,7 +146,7 @@ content_blocks:
         text: Send message
   - _bookshop_name: global/testimonial
     title: Partners
-    title_suffix:
+    title_suffix: we work with
     description: ''
     slider:
       - image: /uploads/microsoft-for-startups.jpg
