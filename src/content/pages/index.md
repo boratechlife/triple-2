@@ -112,4 +112,36 @@ content_blocks:
         designation: Co-Founder
         image: /uploads/feature-card-three-3.png
         image_alt: 'Team member: Freek Boelders'
+  - _bookshop_name: contact/form
+    address:
+      heading: >-
+        Benieuwd naar wat wij kunnen betekenen voor uw organisatie, of heeft u
+        een vraag? 
+      address: Stuur ons een email of bel ons
+    phone:
+      heading: Phone
+      cell: +31 (0)6 13 27 08 33
+      image: /images/contact/call-add.svg
+      image_alt: call-add
+    email:
+      heading: Email
+      email: bram@triple.blue
+      image: /images/contact/directbox-send.svg
+      image_alt: send-box
+    form:
+      heading: Say Hello
+      fullname:
+        heading: Full Name
+        placeholder: Enter First Name
+      phone_number:
+        heading: Phone number
+        placeholder: Enter Phone Number
+      email:
+        heading: Email Address
+        placeholder: Enter Email Address
+      message:
+        heading: Your Messages
+        placeholder: Any Message
+      submit_button:
+        text: Send message
 ---
