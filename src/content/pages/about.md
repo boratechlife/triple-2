@@ -33,10 +33,10 @@ content_blocks:
     title: 'Organisaties helpen te '
     title_suffix: versnellen
     description: >-
-      Dat is waar we blij van worden. En vooral voor werk dat eigenlijk iedereen
-      liever niet doet. Wij gebruiken kunstmatige intelligentie om oplossingen
-      te ontwikkelen die hierbij ondersteunen, met veiligheid en
-      vertrouwelijkheid van uw data voorop.
+      Dat is waar we blij van worden. En vooral bij werk dat eigenlijk liever
+      niemand doet. Wij gebruiken kunstmatige intelligentie om oplossingen te
+      ontwikkelen die hierbij ondersteunen, met veiligheid en vertrouwelijkheid
+      van uw data voorop.
     alternate_style: false
     numbers: []
   - _bookshop_name: about/team
