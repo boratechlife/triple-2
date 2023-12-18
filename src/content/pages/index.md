@@ -15,8 +15,8 @@ content_blocks:
     description: >-
       Bij Tripleblue bouwen we AI-oplossingen om je processen sneller, beter en
       leuker te maken. We zijn gespecialiseerd in het continu ontsluiten van
-      waardevolle inzichten uit je audio- en tekstuele data, op maat gemaakt
-      voor jouw behoeften.
+      waardevolle inzichten uit uw audio- en tekstuele data, op maat gemaakt
+      voor uw behoeften.
     image: /uploads/home-image.png
     image_alt: Reports dashboard
     button:
