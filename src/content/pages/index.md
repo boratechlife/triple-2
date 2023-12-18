@@ -145,7 +145,7 @@ content_blocks:
       submit_button:
         text: Send message
   - _bookshop_name: global/testimonial
-    title: Part of
+    title: Partners
     title_suffix:
     description: ''
     slider:
