@@ -29,7 +29,7 @@ content_blocks:
       notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
       team helpt u graag bij het opzetten van een demo.
     button:
-      link: www.vve-notulist.nl
+      link: https://www.vve-notulist.nl/
       text: Meer informatie
     video:
       image: /uploads/home-image.png
