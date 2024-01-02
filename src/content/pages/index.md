@@ -34,7 +34,7 @@ content_blocks:
     video:
       image: /uploads/home-image.png
       image_alt: vve-notulist.nl
-      link: www.vve-notulist.nl
+      link: https://www.vve-notulist.nl/
   - _bookshop_name: global/counter
     title: De voordelen van
     title_suffix: vve-notulist.nl
