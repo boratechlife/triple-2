@@ -54,6 +54,10 @@ content_blocks:
         designation: Co-founder
         image: /uploads/feature-card-three-3.png
         image_alt: 'Team member: Freek Boelders'
+      - name: Cody Fisher
+        designation: Co-Founder & CEO
+        image: /images/team/team-member-1.jpg
+        image_alt: 'Team member: Cody Fisher'
   - _bookshop_name: global/feature
     image: /uploads/feature-card-one.png
     image_alt: Neem contact met ons op
