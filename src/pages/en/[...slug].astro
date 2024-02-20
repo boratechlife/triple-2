@@ -5,7 +5,7 @@ import { getCollection, CollectionEntry } from "astro:content";
 import i18next, { t, changeLanguage } from "i18next";
 import { Trans, HeadHrefLangs } from "astro-i18next/components";
 
-changeLanguage("nl");
+changeLanguage("en");
 
 const currentLang = i18next.language;
 export interface Props {
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
     // Map over the pages to create the paths
     return pages.map((page) => {
         const slug = page.slug.replace(/index$/, "");
-        if (slug === "nl") {
+        if (slug === "en") {
             console.log("slug", slug, page);
             return { params: { slug: undefined }, props: { page } };
         }

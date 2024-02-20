@@ -4,6 +4,8 @@ import Footer from "@components/layouts/footer";
 import Navigation from "@components/layouts/navigation";
 import { SEO } from "astro-seo";
 import site from "@data/site.json";
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs, LanguageSelector } from "astro-i18next/components";
 
 export interface SEOProps {
   page_description: string | null;
@@ -29,10 +31,12 @@ const description = seo?.page_description || site.description;
 const image = seo?.featured_image || site.image;
 const image_alt = seo?.featured_image_alt || site.image_alt;
 const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
+
+console.log("LANG", i18next.language)
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html  lang={i18next.language}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -46,7 +50,10 @@ const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
     <link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192" />
     <link rel="icon" type="image/png" href="/images/favicon.png" />
     <meta name="generator" content={Astro.generator} />
+    <HeadHrefLangs />
+<style is:inline>
 
+</style>
     <SEO
       noindex={seo?.no_index || false}
       title={title}
@@ -74,7 +81,9 @@ const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
       }}
     />
   </head>
-  <body>
+  <body class="relative">
+
+    
     <Navigation client:load pageUrl={canonicalURL} />
     <slot />
     <Footer />
@@ -88,7 +97,39 @@ const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
         <!-- Calendly badge widget begin -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/bram-tripleblue/30min-demo', text: 'Demo aanvragen', color: '#2684FF', textColor: '#ffffff', branding: false }); }</script>
+    <script type="text/javascript"   define:vars={{text: t("layout.demotitle")}}>window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/bram-tripleblue/30min-demo', text:text, color: '#2684FF', textColor: '#ffffff', branding: false }); }</script>
     <!-- Calendly badge widget end -->
+
+    <script>
+      $(window).on('load', function() {
+        $("#select-language").on("change", function(e) {
+          const selectedLanguage = e.target.value;
+          let pathSegments = window.location.pathname.split('/').filter(Boolean); // Remove any empty strings from array
+    
+          // Adjust pathSegments based on the selected language
+          if (pathSegments.length > 0 && ['en', 'de', 'el', 'nl'].includes(pathSegments[0])) {
+            // Replace or remove the language segment
+            if (selectedLanguage === 'nl') {
+              pathSegments.shift(); // Remove the first segment if it's 'nl' (default language)
+            } else {
+              pathSegments[0] = selectedLanguage; // Replace the first segment with the selected language
+            }
+          } else {
+            // Add the new language as the first segment if it's not the default or if it's not present
+            if (selectedLanguage !== 'nl' || window.location.pathname === '/') {
+              pathSegments = [selectedLanguage, ...pathSegments];
+            }
+          }
+    
+          // Construct the new URL
+          const newPath = '/' + pathSegments.join('/') + window.location.search + window.location.hash;
+          
+          // Navigate to the new URL
+          window.location.pathname = newPath;
+        });
+      });
+    </script>
+    
+  
   </body>
 </html>

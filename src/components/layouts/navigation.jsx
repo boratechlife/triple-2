@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 
+import LanguageSelector from "@components/layouts/language";
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+
 export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
 
@@ -18,6 +22,10 @@ export default function Navigation({ pageUrl }) {
   const handleClick = (event) => {
     const navbar = $("#mainnavigationBar");
     navbar.toggleClass("bg-nav");
+  };
+
+  const handleChange = (event) => {
+    alert("Yes...");
   };
 
   return (
@@ -116,12 +124,16 @@ export default function Navigation({ pageUrl }) {
                 {navigation.items.map((link, i) => (
                   <li key={i} className="nav-item">
                     <a
-                      href={`${link.link}`}
+                      href={
+                        link.link !== "/"
+                          ? `/${i18next.language}${link.link}`
+                          : `${link.link}`
+                      }
                       className={`nav-link ${
                         pageUrl?.pathname === link.link ? "active" : ""
                       }`}
                     >
-                      {link.text}
+                      {t(`navigation.items.${i}.text`)}
                     </a>
                   </li>
                 ))}
@@ -130,12 +142,29 @@ export default function Navigation({ pageUrl }) {
             <div className="d-none d-lg-block">
               <div className="nav-item">
                 <a
-                  href={`${navigation.btn.link}`}
+                  href={
+                    navigation.btn.link !== "/"
+                      ? `/${i18next.language}${navigation.btn.link}`
+                      : `${navigation.btn.link}`
+                  }
                   className="btn btn-sm btn-links"
                 >
-                  {navigation.btn.text}
+                  {t("navigation.btn.text")}
                 </a>
               </div>
+            </div>
+
+            <div className="mx-1 py-4">
+              <select
+                name=""
+                className="custom-select form-control-lg border-0"
+                id="select-language"
+                defaultValue={i18next.language}
+              >
+                <option>nl</option>
+                <option value="en">en</option>
+                <option value="de">De</option>
+              </select>
             </div>
           </div>
         </nav>

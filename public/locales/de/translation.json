@@ -1,0 +1,63 @@
+{
+  "site": {
+    "title": "Meine fantastische Webseite!",
+    "description": "Hier ist die Beschreibung meiner fantastischen Webseite!"
+  },
+  "home": {
+    "title": "Willkommen auf meiner fantastischen Webseite!",
+    "subtitle": "Das ist ein <0>komplexerer</0> Text zum Übersetzen, vermischt mit <1>HTML-Elementen</1>, wie zum Beispiel einem <2>coolen Link</2>!"
+  },
+  "navigation": {
+    "items": [
+      {
+        "link": "/",
+        "text": "Startseite"
+      },
+      {
+        "link": "/about/",
+        "text": "Über uns"
+      },
+      {
+        "link": "/contact/",
+        "text": "Kontakt"
+      }
+    ],
+    "btn": {
+      "text": "Kontakt aufnehmen"
+    }
+  },
+  "layout": {
+    "demotitle": "Demo anfordern"
+  },
+  "footer": {
+    "copyright": "Tripleblue GmbH. Alle Rechte vorbehalten.",
+    "sections": [
+      {
+        "title": "Über Tripleblue",
+        "links": [
+          {
+            "link": "/",
+            "text": "Startseite"
+          },
+          {
+            "link": "/features/",
+            "text": "Funktionen"
+          },
+          {
+            "link": "/about/",
+            "text": "Über uns"
+          }
+        ]
+      },
+      {
+        "title": "Kontakt aufnehmen",
+        "links": [
+          {
+            "link": "/contact/",
+            "text": "Kontakt"
+          }
+        ]
+      }
+    ]
+  }
+}

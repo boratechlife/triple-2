@@ -11,98 +11,83 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Ontdek de waarde van uw audiodata met tripleblueAI™
+    title: Discover the value of your audio data with tripleblueAI™
     description: >-
-      Bij Tripleblue bouwen we AI-oplossingen om je processen sneller, beter en
-      leuker te maken. We zijn gespecialiseerd in het continu ontsluiten van
-      waardevolle inzichten uit uw audio- en tekstuele data, op maat gemaakt
-      voor uw behoeften.
+      At Tripleblue, we build AI solutions to make your processes faster, better, and more enjoyable. We specialize in continuously unlocking valuable insights from your audio and textual data, tailored to your needs.
     image: /uploads/home-image.png
     image_alt: Reports dashboard
     button:
-      text: Neem contact op
+      text: Get in touch
       link: /contact/
   - _bookshop_name: about/video
     title: 'VvE-notulist.nl '
     description: >-
-      Notuleren kost veel tijd, en dus geld. Onze VvE-gespecialiseerde
-      notuleersoftware tripleblueAI™ neemt deze taak tot 95% uit handen. Ons
-      team helpt u graag bij het opzetten van een demo.
+      Minute-taking is time-consuming, and thus expensive. Our VvE-specialized minute-taking software, tripleblueAI™, takes this task off your hands by up to 95%. Our team is eager to assist you in setting up a demo.
     button:
       link: https://www.vve-notulist.nl/
-      text: Meer informatie
+      text: Learn more
     video:
       image: /uploads/home-image.png
       image_alt: vve-notulist.nl
       link:
   - _bookshop_name: global/counter
-    title: De voordelen van
+    title: The benefits of
     title_suffix: vve-notulist.nl
     description: >-
-      Wij bieden de toekomst van notuleren met onze AI-gedreven software die
-      tijdrovend werk verandert in een taak van enkele minuten.
+      We offer the future of minute-taking with our AI-driven software that transforms time-consuming work into a task of just a few minutes.
     alternate_style: false
     numbers:
       - prefix:
         number: 1000
         suffix: +
-        text: jaarlijkse vergaderingen
+        text: annual meetings
       - prefix:
         number: 4000
         suffix: +
-        text: bespaarde notuleeruren
+        text: hours of minute-taking saved
       - prefix:
         number: 48
-        suffix: ' uur'
-        text: van audio tot notulen
+        suffix: ' hours'
+        text: from audio to minutes
       - prefix:
         number: 25
         suffix: '%'
-        text: minder kosten
+        text: cost reduction
   - _bookshop_name: global/feature
     image: /uploads/feature-card-one.png
     image_alt: data-protection
-    title: Veilig & vertrouwelijk
+    title: Safe & Confidential
     description: >-
-      Onze notulistensoftware tripleblueAI™ is ontworpen met uw vertrouwen als
-      kernwaarde. Wij hanteren strikte beveiligingsprotocollen en zijn volledig
-      toegewijd aan de Algemene Verordening Gegevensbescherming (AVG/GDPR) om uw
-      gegevens te beschermen.
+      Our minute-taking software, tripleblueAI™, is designed with your trust as a core value. We adhere to strict security protocols and are fully committed to the General Data Protection Regulation (GDPR) to protect your data.
     button:
       link: /contact/
-      text: Probeer gratis
+      text: Try for free
     reversed: false
   - _bookshop_name: global/feature
     image: /uploads/feature-card-two-1.png
-    image_alt: bliksem-notuleren
-    title: Hoe het werkt
+    image_alt: lightning-fast minute-taking
+    title: How it works
     description: >-
-      1\. Maak een geluidsopname van de VvE-vergadering. Advies nodig? Wij
-      helpen je graag mee voor de juiste geluidskwaliteit.&nbsp;<br>2\. Upload
-      de opname en agenda via de webapplicatie&nbsp;<br>3\. Binnen 1 à 2 dagen
-      ontvangt u een e-mail met het voltooide notulen document.
+      1\. Record the VvE meeting. Need advice? We are happy to help you achieve the right sound quality.&nbsp;<br>2\. Upload the recording and agenda via the web application&nbsp;<br>3\. Within 1 to 2 days, you will receive an email with the completed minutes document.
     button:
       link: /contact
-      text: Meld je aan voor een gratis demo
+      text: Sign up for a free demo
     reversed: true
   - _bookshop_name: global/feature
     image: /uploads/feature-card-three.png
     image_alt: File upload
-    title: Intelligente inzichten
+    title: Intelligent Insights
     description: >-
-      Met geavanceerde algoritmes analyseert onze service de inhoud van uw
-      vergaderingen, waardoor u niet alleen accurate notulen krijgt maar ook
-      waardevolle inzichten en actiepunten.
+      Our service analyzes the content of your meetings with advanced algorithms, providing you not just accurate minutes but also valuable insights and action items.
     button:
       link: /contact
-      text: Meer informatie opvragen
+      text: Request more information
     reversed: false
   - _bookshop_name: contact/form
     address:
       heading: >-
-        Benieuwd naar wat wij kunnen betekenen voor uw organisatie, of heeft u
-        een vraag? 
-      address: Stuur ons een email of bel ons
+        Curious about what we can do for your organization, or do you have a question?
+      address: Send us an email or call us
     phone:
       heading: Phone
       cell: +31 (0)6 13 27 08 33

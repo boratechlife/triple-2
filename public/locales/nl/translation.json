@@ -1,0 +1,63 @@
+{
+  "site": {
+    "title": "Mijn geweldige website!",
+    "description": "Hier is de beschrijving van mijn geweldige website!"
+  },
+  "home": {
+    "title": "Welkom op mijn geweldige website!",
+    "subtitle": "Dit is een <0>complexere</0> tekst om te vertalen, gemengd met <1>html-elementen</1>, zoals een <2>coole link</2>!"
+  },
+  "navigation": {
+    "items": [
+      {
+        "link": "/",
+        "text": "Home"
+      },
+      {
+        "link": "/about/",
+        "text": "Over ons"
+      },
+      {
+        "link": "/contact/",
+        "text": "Contact"
+      }
+    ],
+    "btn": {
+      "text": "Contact opnemen"
+    }
+  },
+  "layout": {
+    "demotitle": "Demo aanvragen"
+  },
+  "footer": {
+    "copyright": "Tripleblue GmbH. Alle rechten voorbehouden.",
+    "sections": [
+      {
+        "title": "Over Tripleblue",
+        "links": [
+          {
+            "link": "/",
+            "text": "Home"
+          },
+          {
+            "link": "/features/",
+            "text": "Functionaliteiten"
+          },
+          {
+            "link": "/about/",
+            "text": "Over ons"
+          }
+        ]
+      },
+      {
+        "title": "Neem contact op",
+        "links": [
+          {
+            "link": "/contact/",
+            "text": "Contact"
+          }
+        ]
+      }
+    ]
+  }
+}

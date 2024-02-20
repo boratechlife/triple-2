@@ -1,0 +1,63 @@
+{
+  "site": {
+    "title": "My awesome website!",
+    "description": "Here is the description of my awesome website!"
+  },
+  "home": {
+    "title": "Welcome to my awesome website!",
+    "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as a <2>a cool link</2>!"
+  },
+  "navigation": {
+    "items": [
+      {
+        "link": "/",
+        "text": "Home"
+      },
+      {
+        "link": "/about/",
+        "text": "About us"
+      },
+      {
+        "link": "/contact/",
+        "text": "Contact"
+      }
+    ],
+    "btn": {
+      "text": "Contact Us"
+    }
+  },
+  "layout": {
+    "demotitle": "Request a Demo"
+  },
+  "footer": {
+    "copyright": "Tripleblue GmbH. All rights reserved."
+  },
+  "sections": [
+    {
+      "title": "About Tripleblue",
+      "links": [
+        {
+          "link": "/",
+          "text": "Home"
+        },
+        {
+          "link": "/features/",
+          "text": "Features"
+        },
+        {
+          "link": "/about/",
+          "text": "About Us"
+        }
+      ]
+    },
+    {
+      "title": "Contact Us",
+      "links": [
+        {
+          "link": "/contact/",
+          "text": "Contact"
+        }
+      ]
+    }
+  ]
+}

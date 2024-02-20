@@ -1,5 +1,8 @@
 import footer from "@data/footer.json";
 
+import i18next, { t } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+
 export default function Footer({}) {
   return (
     <footer className="footer pt-xxl-19 pt-8 pb-sm-7 pb-5" id="footer">
@@ -13,7 +16,7 @@ export default function Footer({}) {
                 </a>
                 <p>
                   © Copyright <span>{new Date().getFullYear()}</span>{" "}
-                  {footer.copyright}
+                  {t("footer.copyright")}
                 </p>
               </div>
               <div className="social-icon">
@@ -36,11 +39,22 @@ export default function Footer({}) {
             {footer.sections.map((section, i) => (
               <div className="col-6 col-md-3 col-lg-2 order-1" key={i}>
                 <div className="footer-widget">
-                  <h3 className="">{section.title}</h3>
+                  <h3 className=""> {t(`footer.sections.${i}.title`)}</h3>
                   <ul className="list-unstyled">
-                    {section.links.map((link, i) => (
-                      <li key={i}>
-                        <a href={`${link.link}`}>{link.text}</a>
+                    {section.links.map((link, k) => (
+                      <li key={k}>
+                        <a href={`${link.link}`}>
+                          <a
+                            href={
+                              link.link !== "/"
+                                ? `/${i18next.language}${link.link}`
+                                : `${link.link}`
+                            }
+                          >
+                            {link.text}
+                          </a>
+                          {t(`footer.section.${i}.links.${k}.text`)}
+                        </a>
                       </li>
                     ))}
                   </ul>
