@@ -1,11 +1,15 @@
 ---
-import "../styles/theme.scss";
-import Footer from "@components/layouts/footer";
-import Navigation from "@components/layouts/navigation";
-import { SEO } from "astro-seo";
-import site from "@data/site.json";
-import i18next, { t } from "i18next";
-import { Trans, HeadHrefLangs, LanguageSelector } from "astro-i18next/components";
+import '../styles/theme.scss';
+import Footer from '@components/layouts/footer';
+import Navigation from '@components/layouts/navigation';
+import { SEO } from 'astro-seo';
+import site from '@data/site.json';
+import i18next, { t } from 'i18next';
+import {
+  Trans,
+  HeadHrefLangs,
+  LanguageSelector,
+} from 'astro-i18next/components';
 
 export interface SEOProps {
   page_description: string | null;
@@ -32,11 +36,11 @@ const image = seo?.featured_image || site.image;
 const image_alt = seo?.featured_image_alt || site.image_alt;
 const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
 
-console.log("LANG", i18next.language)
+console.log('LANG', i18next.language);
 ---
 
 <!DOCTYPE html>
-<html  lang={i18next.language}>
+<html lang={i18next.language}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -51,9 +55,7 @@ console.log("LANG", i18next.language)
     <link rel="icon" type="image/png" href="/images/favicon.png" />
     <meta name="generator" content={Astro.generator} />
     <HeadHrefLangs />
-<style is:inline>
-
-</style>
+    <style is:inline></style>
     <SEO
       noindex={seo?.no_index || false}
       title={title}
@@ -63,7 +65,7 @@ console.log("LANG", i18next.language)
         basic: {
           title: Astro.props.title,
           url: baseUrl?.toString(),
-          type: `${seo?.open_graph_type || "website"}`,
+          type: `${seo?.open_graph_type || 'website'}`,
           image: image,
         },
         optional: {
@@ -77,14 +79,12 @@ console.log("LANG", i18next.language)
       twitter={{
         creator: `${seo?.author_twitter_handle || site.twitter_site}`,
         site: `${site.twitter_site}`,
-        card: "summary_large_image",
+        card: 'summary_large_image',
       }}
     />
   </head>
   <body class="relative">
-
-    
-    <Navigation client:load pageUrl={canonicalURL} />
+    <Navigation pageUrl={canonicalURL} />
     <slot />
     <Footer />
 
@@ -94,20 +94,43 @@ console.log("LANG", i18next.language)
     <script src="/vendor/magnific-popup/magnific-popup.min.js" is:inline
     ></script>
     <script src="/js/script.js" async></script>
-        <!-- Calendly badge widget begin -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="text/javascript"   define:vars={{text: t("layout.demotitle")}}>window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/bram-tripleblue/30min-demo', text:text, color: '#2684FF', textColor: '#ffffff', branding: false }); }</script>
+    <!-- Calendly badge widget begin -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+    <script type="text/javascript" define:vars={{ text: t('layout.demotitle') }}
+    >
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: 'https://calendly.com/bram-tripleblue/30min-demo',
+          text: text,
+          color: '#2684FF',
+          textColor: '#ffffff',
+          branding: false,
+        });
+      };
+    </script>
     <!-- Calendly badge widget end -->
 
     <script>
-      $(window).on('load', function() {
-        $("#select-language").on("change", function(e) {
+      $(window).on('load', function () {
+        $('#select-language').on('change', function (e) {
           const selectedLanguage = e.target.value;
-          let pathSegments = window.location.pathname.split('/').filter(Boolean); // Remove any empty strings from array
-    
+          let pathSegments = window.location.pathname
+            .split('/')
+            .filter(Boolean); // Remove any empty strings from array
+
           // Adjust pathSegments based on the selected language
-          if (pathSegments.length > 0 && ['en', 'de', 'el', 'nl'].includes(pathSegments[0])) {
+          if (
+            pathSegments.length > 0 &&
+            ['en', 'de', 'el', 'nl'].includes(pathSegments[0])
+          ) {
             // Replace or remove the language segment
             if (selectedLanguage === 'nl') {
               pathSegments.shift(); // Remove the first segment if it's 'nl' (default language)
@@ -120,16 +143,18 @@ console.log("LANG", i18next.language)
               pathSegments = [selectedLanguage, ...pathSegments];
             }
           }
-    
+
           // Construct the new URL
-          const newPath = '/' + pathSegments.join('/') + window.location.search + window.location.hash;
-          
+          const newPath =
+            '/' +
+            pathSegments.join('/') +
+            window.location.search +
+            window.location.hash;
+
           // Navigate to the new URL
           window.location.pathname = newPath;
         });
       });
     </script>
-    
-  
   </body>
 </html>
