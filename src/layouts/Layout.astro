@@ -121,62 +121,73 @@ console.log('LANG', i18next.language);
     <script>
       $(window).on('load', function () {
         $('#select-language').on('change', function (e) {
-          const selectedLanguage = e.target.value;
-          let pathSegments = window.location.pathname
-            .split('/')
-            .filter(Boolean); // Remove any empty strings from array
+  const selectedLanguage = e.target.value;
+  let pathSegments = window.location.pathname
+    .split('/')
+    .filter(Boolean); // Remove any empty strings from array
 
-          // Adjust pathSegments based on the selected language
-          if (
-            pathSegments.length > 0 &&
-            ['en', 'de', 'el', 'nl'].includes(pathSegments[0])
-          ) {
-            // Replace or remove the language segment
-            if (selectedLanguage === 'nl') {
-              pathSegments.shift(); // Remove the first segment if it's 'nl' (default language)
-            } else {
-              pathSegments[0] = selectedLanguage; // Replace the first segment with the selected language
-            }
-          } else {
-            // Add the new language as the first segment if it's not the default or if it's not present
-            if (selectedLanguage !== 'nl' || window.location.pathname === '/') {
-              pathSegments = [selectedLanguage, ...pathSegments];
-            }
-          }
+  if (pathSegments.length > 0 && ['en', 'de', 'el', 'nl'].includes(pathSegments[0])) {
+    if (selectedLanguage === 'nl') {
+      // Special handling when default language is selected
+      pathSegments.shift(); // Remove the language code
+      if (pathSegments.length > 0) {
+        // If there are more segments, prepend the default language code
+        pathSegments = ['nl', ...pathSegments];
+      }
+    } else {
+      // Replace the first segment with the selected language
+      pathSegments[0] = selectedLanguage;
+    }
+  } else {
+    // Add the new language as the first segment if it's not the default or if it's not present
+    if (selectedLanguage !== 'nl') {
+      pathSegments.unshift(selectedLanguage);
+    }
+  }
 
-          // Construct the new URL
-          const newPath =
-            '/' +
-            pathSegments.join('/') +
-            window.location.search +
-            window.location.hash;
+  // Construct the new URL
+  let newPath = '/' + pathSegments.join('/') + window.location.search + window.location.hash;
 
-          // Navigate to the new URL
-          window.location.pathname = newPath;
-        });
+  // Special case for default language to root redirection
+  if (selectedLanguage === 'nl' && pathSegments.length === 0) {
+    newPath = '/' + window.location.search + window.location.hash; // Go to root for default language if no other segments
+  }
+
+  // Navigate to the new URL
+  window.location.pathname = newPath;
+});
 
 
         function setLanguageFromUrl() {
   // Get the current URL pathname and remove any leading/trailing slashes
   const pathname = window.location.pathname.replace(/^\/|\/$/g, '');
 
-  // Check for language code in URL segments after the first one
+  // Initialize the language code variable
   let languageCode = '';
-  if (pathname.includes('/')) {
-    languageCode = pathname.split('/')[0];
+
+  // Split the pathname into segments
+  const segments = pathname.split('/');
+
+  // Check if the first segment is a language code
+  // Assuming language codes are two characters long
+  if (segments.length > 0 && segments[0].length === 2) {
+    languageCode = segments[0];
   }
 
-  console.log("languageCode", languageCode)
+  console.log("languageCode", languageCode);
+  
+  // Get the language select element
   const languageSelect = document.getElementById('select-language') as any;
+  
+  // Check if the language code is among the expected ones and set the select value
   if(['en','nl','de'].includes(languageCode)) {
     languageSelect.value = languageCode;
-  }else {
-    languageSelect.value =  'nl';
+  } else {
+    // Default to 'nl' if the language code is not recognized
+    languageSelect.value = 'nl';
   }
-  // Handle cases where lang code is present or not
- 
-  
 }
+
 
 // Set the default language immediately on page load
 setLanguageFromUrl();
