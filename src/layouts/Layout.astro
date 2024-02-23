@@ -119,7 +119,7 @@ console.log('LANG', i18next.language);
     <!-- Calendly badge widget end -->
 
     <script>
-      $(window).on('load', function () {
+  $(window).on('load', function () {
         $('#select-language').on('change', function (e) {
   const selectedLanguage = e.target.value;
   let pathSegments = window.location.pathname
@@ -191,7 +191,17 @@ console.log('LANG', i18next.language);
 
 // Set the default language immediately on page load
 setLanguageFromUrl();
+
+
+
+
+window.addEventListener('popstate', function(event) {
+  setLanguageFromUrl();
+});
+
       });
+
+
     </script>
   </body>
 </html>
