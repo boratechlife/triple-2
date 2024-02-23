@@ -154,6 +154,32 @@ console.log('LANG', i18next.language);
           // Navigate to the new URL
           window.location.pathname = newPath;
         });
+
+
+        function setLanguageFromUrl() {
+  // Get the current URL pathname and remove any leading/trailing slashes
+  const pathname = window.location.pathname.replace(/^\/|\/$/g, '');
+
+  // Check for language code in URL segments after the first one
+  let languageCode = '';
+  if (pathname.includes('/')) {
+    languageCode = pathname.split('/')[0];
+  }
+
+  console.log("languageCode", languageCode)
+  const languageSelect = document.getElementById('select-language') as any;
+  if(['en','nl','de'].includes(languageCode)) {
+    languageSelect.value = languageCode;
+  }else {
+    languageSelect.value =  'nl';
+  }
+  // Handle cases where lang code is present or not
+ 
+  
+}
+
+// Set the default language immediately on page load
+setLanguageFromUrl();
       });
     </script>
   </body>

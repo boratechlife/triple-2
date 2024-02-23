@@ -161,7 +161,7 @@ export default function Navigation({ pageUrl }) {
                 id="select-language"
                 defaultValue={i18next.language}
               >
-                <option>nl</option>
+                <option value="nl">nl</option>
                 <option value="en">en</option>
                 <option value="de">De</option>
               </select>
